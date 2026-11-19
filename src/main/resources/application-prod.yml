@@ -1,0 +1,494 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mm-erp
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    hikari:
+      maximum-pool-size: 30
+  flyway:
+    enabled: ${FLYWAY_ENABLED:true}
+    postgresql:
+      transactional-lock: false
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: ${JPA_DDL_AUTO:none}
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc.time_zone: Asia/Tashkent
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USERNAME:mm}
+    password: ${RABBITMQ_PASSWORD:}
+  mail:
+    host: ${RFQ_SMTP_HOST:smtp.gmail.com}
+    port: ${RFQ_SMTP_PORT:587}
+    username: ${RFQ_SMTP_USERNAME}
+    password: ${RFQ_SMTP_PASSWORD}
+    properties:
+      mail.smtp.auth: ${RFQ_SMTP_AUTH:true}
+      mail.smtp.starttls.enable: ${RFQ_SMTP_STARTTLS:true}
+
+mm:
+  one-c-api:
+    username: ${MM_ONE_C_API_USERNAME}
+    password: ${MM_ONE_C_API_PASSWORD}
+    tenant: ${MM_ONE_C_API_TENANT:default}
+    company: ${MM_ONE_C_API_COMPANY:753e618e-8d47-4efd-a41e-df8311b83d2f}
+    pull-enabled: ${MM_ONE_C_API_PULL_ENABLED:true}
+
+  rfq-mail:
+    enabled: ${RFQ_MAIL_ENABLED:true}
+    from: ${RFQ_MAIL_FROM}
+    reply-to: ${RFQ_MAIL_REPLY_TO}
+    portal-base-url: ${SUPPLIER_PORTAL_BASE_URL}
+    magic-link-pepper: ${RFQ_MAGIC_LINK_PEPPER}
+    callback-secret: ${RFQ_MAIL_CALLBACK_SECRET}
+    max-automatic-retries: ${RFQ_MAIL_MAX_AUTOMATIC_RETRIES:5}
+    batch-size: ${RFQ_MAIL_BATCH_SIZE:20}
+    poll-delay-ms: ${RFQ_MAIL_POLL_DELAY_MS:30000}
+
+  ai:
+    base-url: ${AI_BASE_URL}
+    api-key: ${AI_API_KEY}
+    connect-timeout: ${AI_CONNECT_TIMEOUT:5s}
+    analysis-timeout: ${AI_ANALYSIS_TIMEOUT:180s}
+    inventory-document-extraction:
+      timeout: ${AI_INVENTORY_EXTRACTION_TIMEOUT:350s}
+      job-timeout: ${AI_INVENTORY_EXTRACTION_JOB_TIMEOUT:30m}
+    receipt-advice:
+      base-url: ${AI_RECEIPT_ADVICE_BASE_URL:${mm.ai.base-url}}
+      api-key: ${AI_RECEIPT_ADVICE_API_KEY:${mm.ai.api-key:}}
+      enabled: ${AI_RECEIPT_ADVICE_ENABLED:true}
+      timeout: ${AI_RECEIPT_ADVICE_TIMEOUT:120s}
+      max-request-bytes: ${AI_RECEIPT_ADVICE_MAX_REQUEST_BYTES:2097152}
+
+app:
+  time-zone: Asia/Tashkent
+  kimyosanoat:
+    webhook:
+      auto-post-enabled: true
+      username: ${KIMYOSANOAT_WEBHOOK_USERNAME}
+      password: ${KIMYOSANOAT_WEBHOOK_PASSWORD}
+      tenant-id: default
+      company-id: ${KIMYOSANOAT_WEBHOOK_COMPANY_ID}
+  seed:
+    enabled: false
+  jwt:
+    secret: ${JWT_SECRET}
+    ttl-minutes: ${JWT_TTL_MINUTES:480}
+  rate-limit:
+    requests-per-minute: ${RATE_LIMIT_RPM:600}
+  cors:
+    allowed-origins: ${CORS_ALLOWED_ORIGINS}
+    allowed-origin-patterns: ${CORS_ALLOWED_ORIGIN_PATTERNS}
+  inventory:
+    allow-negative-stock: ${ALLOW_NEGATIVE_STOCK:false}
+  firebase:
+    enabled: true
+    project-id: materials-management-82c3c
+    service-account-file: classpath:firebase-service-account.json
+    service-account-json: ''
+    service-account-base64: ''
+  identity:
+    sso:
+      enabled: ${SSO_ENABLED:false}
+      provider-type: ${SSO_PROVIDER_TYPE:OIDC}
+      login-url: ${SSO_LOGIN_URL:}
+      assertion-secret: ${SSO_ASSERTION_SECRET:}
+      state-secret: ${SSO_STATE_SECRET:${JWT_SECRET}}
+      authorization-url: ${SSO_AUTHORIZATION_URL:}
+      token-url: ${SSO_TOKEN_URL:}
+      user-info-url: ${SSO_USER_INFO_URL:}
+      client-id: ${SSO_CLIENT_ID:}
+      client-secret: ${SSO_CLIENT_SECRET:}
+      redirect-uri: ${SSO_REDIRECT_URI:http://localhost:5173/sso/callback}
+      client-auth-method: ${SSO_CLIENT_AUTH_METHOD:BASIC}
+      scopes: ${SSO_SCOPES:openid,profile,email}
+      trusts-idp-mfa: ${SSO_TRUSTS_IDP_MFA:true}
+      timestamp-skew-seconds: ${SSO_TIMESTAMP_SKEW_SECONDS:300}
+      metadata-url: ${SSO_METADATA_URL:}
+      idp-entity-id: ${SSO_IDP_ENTITY_ID:}
+      sp-entity-id: ${SSO_SP_ENTITY_ID:}
+      acs-url: ${SSO_ACS_URL:}
+      x509-certificate: ${SSO_X509_CERTIFICATE:}
+      saml-private-key: ${SSO_SAML_PRIVATE_KEY:}
+    sms-mfa:
+      enabled: ${SMS_MFA_ENABLED:false}
+      code-pepper: ${SMS_MFA_CODE_PEPPER:${JWT_SECRET}}
+      ttl-seconds: ${SMS_MFA_TTL_SECONDS:300}
+      include-code-in-outbox: ${SMS_MFA_INCLUDE_CODE_IN_OUTBOX:false}
+      gateway:
+        enabled: ${SMS_GATEWAY_ENABLED:false}
+        provider-code: ${SMS_GATEWAY_PROVIDER:CUSTOM}
+        url: ${SMS_GATEWAY_URL:}
+        auth-url: ${SMS_GATEWAY_AUTH_URL:}
+        method: ${SMS_GATEWAY_METHOD:POST}
+        auth-header: ${SMS_GATEWAY_AUTH_HEADER:Authorization}
+        auth-token: ${SMS_GATEWAY_AUTH_TOKEN:}
+        login: ${SMS_GATEWAY_LOGIN:}
+        password: ${SMS_GATEWAY_PASSWORD:}
+        account-sid: ${SMS_GATEWAY_ACCOUNT_SID:}
+        service-sid: ${SMS_GATEWAY_SERVICE_SID:}
+        from-phone: ${SMS_GATEWAY_FROM_PHONE:}
+        sender: ${SMS_GATEWAY_SENDER:ERP-MM}
+        template: '${SMS_GATEWAY_TEMPLATE:ERP MM verification code: {code}. Valid for {ttlSeconds} seconds.}'
+        timeout-seconds: ${SMS_GATEWAY_TIMEOUT_SECONDS:8}
+  attachments:
+    storage-provider: ${ATTACHMENT_STORAGE_PROVIDER:LOCAL}
+    storage-root: ${ATTACHMENT_STORAGE_ROOT:./data/attachments}
+    s3-endpoint: ${ATTACHMENT_S3_ENDPOINT:}
+    s3-region: ${ATTACHMENT_S3_REGION:us-east-1}
+    s3-bucket: ${ATTACHMENT_S3_BUCKET:mm-attachments}
+    s3-access-key: ${ATTACHMENT_S3_ACCESS_KEY:}
+    s3-secret-key: ${ATTACHMENT_S3_SECRET_KEY:}
+    s3-path-style: ${ATTACHMENT_S3_PATH_STYLE:true}
+    s3-request-timeout-seconds: ${ATTACHMENT_S3_REQUEST_TIMEOUT_SECONDS:30}
+    max-size-bytes: ${ATTACHMENT_MAX_SIZE_BYTES:20971520}
+    allowed-content-types:
+      - image/jpeg
+      - image/png
+      - image/webp
+      - application/pdf
+      - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+      - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+      - application/vnd.openxmlformats-officedocument.presentationml.presentation
+      - text/plain
+      - application/json
+  integrations:
+    webhook-url: ${INTEGRATION_WEBHOOK_URL:}
+    settings-secret: ${INTEGRATION_SETTINGS_SECRET:${JWT_SECRET}}
+    message-queue:
+      enabled: ${INTEGRATION_MQ_ENABLED:false}
+      exchange: ${INTEGRATION_MQ_EXCHANGE:mm.integration.events}
+      routing-key: ${INTEGRATION_MQ_ROUTING_KEY:mm.integration.event}
+    systems:
+      fi:
+        enabled: true
+        mock-mode: ${FI_MOCK_MODE:false}
+        base-url: ${FI_BASE_URL:http://localhost:8082}
+        auth-type: ${FI_AUTH_TYPE:BASIC}
+        username: ${FI_USERNAME:${UZASSETS_INTEGRATION_USERNAME:}}
+        password: ${FI_PASSWORD:${UZASSETS_INTEGRATION_PASSWORD:}}
+        bearer-token: ${FI_BEARER_TOKEN:}
+        api-key-header: ${FI_API_KEY_HEADER:Authorization}
+        api-key: ${FI_API_KEY:}
+        client-id: ${FI_CLIENT_ID:}
+        client-secret: ${FI_CLIENT_SECRET:}
+        auth-path: ${FI_AUTH_PATH:}
+        events-path: ${FI_EVENTS_PATH:/api/v1/basic/finmodel/integrations/entries}
+        health-path: ${FI_HEALTH_PATH:/api/v1/health/status}
+      treasury:
+        enabled: true
+        mock-mode: ${TREASURY_MOCK_MODE:true}
+        base-url: ${TREASURY_BASE_URL:http://localhost:8082}
+        auth-type: ${TREASURY_AUTH_TYPE:BASIC}
+        username: ${TREASURY_USERNAME:${UZASSETS_INTEGRATION_USERNAME:}}
+        password: ${TREASURY_PASSWORD:${UZASSETS_INTEGRATION_PASSWORD:}}
+        bearer-token: ${TREASURY_BEARER_TOKEN:}
+        api-key-header: ${TREASURY_API_KEY_HEADER:Authorization}
+        api-key: ${TREASURY_API_KEY:}
+        client-id: ${TREASURY_CLIENT_ID:}
+        client-secret: ${TREASURY_CLIENT_SECRET:}
+        auth-path: ${TREASURY_AUTH_PATH:}
+        events-path: ${TREASURY_EVENTS_PATH:/api/v1/basic/treasury/payments/requests}
+        health-path: ${TREASURY_HEALTH_PATH:/api/v1/health/status}
+      budgeting:
+        enabled: true
+        mock-mode: ${BUDGETING_MOCK_MODE:false}
+        base-url: ${BUDGETING_BASE_URL:http://localhost:8082}
+        auth-type: ${BUDGETING_AUTH_TYPE:BASIC}
+        username: ${BUDGETING_USERNAME:${UZASSETS_INTEGRATION_USERNAME:}}
+        password: ${BUDGETING_PASSWORD:${UZASSETS_INTEGRATION_PASSWORD:}}
+        bearer-token: ${BUDGETING_BEARER_TOKEN:}
+        api-key-header: ${BUDGETING_API_KEY_HEADER:Authorization}
+        api-key: ${BUDGETING_API_KEY:}
+        client-id: ${BUDGETING_CLIENT_ID:}
+        client-secret: ${BUDGETING_CLIENT_SECRET:}
+        auth-path: ${BUDGETING_AUTH_PATH:}
+        events-path: ${BUDGETING_EVENTS_PATH:/api/v1/basic/treasury/commitments}
+        health-path: ${BUDGETING_HEALTH_PATH:/api/v1/health/status}
+      production:
+        enabled: true
+        mock-mode: ${PRODUCTION_MOCK_MODE:false}
+        base-url: ${PRODUCTION_BASE_URL:http://localhost:8090}
+        auth-type: ${PRODUCTION_AUTH_TYPE:API_KEY}
+        username: ${PRODUCTION_USERNAME:}
+        password: ${PRODUCTION_PASSWORD:}
+        bearer-token: ${PRODUCTION_BEARER_TOKEN:}
+        api-key-header: ${PRODUCTION_API_KEY_HEADER:X-Role}
+        api-key: ${PRODUCTION_API_KEY:}
+        client-id: ${PRODUCTION_CLIENT_ID:}
+        client-secret: ${PRODUCTION_CLIENT_SECRET:}
+        auth-path: ${PRODUCTION_AUTH_PATH:}
+        events-path: ${PRODUCTION_EVENTS_PATH:/api/v1/integrations/erp/confirmed-production}
+        health-path: ${PRODUCTION_HEALTH_PATH:/actuator/health}
+      hr:
+        enabled: true
+        mock-mode: ${HR_MOCK_MODE:false}
+        base-url: ${HR_BASE_URL:http://localhost:8091}
+        auth-type: ${HR_AUTH_TYPE:API_KEY}
+        username: ${HR_USERNAME:}
+        password: ${HR_PASSWORD:}
+        bearer-token: ${HR_BEARER_TOKEN:}
+        api-key-header: ${HR_API_KEY_HEADER:X-Service-Token}
+        api-key: ${HR_API_KEY:${HH_MM_SERVICE_TOKEN:}}
+        client-id: ${HR_CLIENT_ID:}
+        client-secret: ${HR_CLIENT_SECRET:}
+        auth-path: ${HR_AUTH_PATH:}
+        events-path: ${HR_EVENTS_PATH:/api/data-exchange/jobs}
+        health-path: ${HR_HEALTH_PATH:/actuator/health}
+      edo:
+        enabled: true
+        mock-mode: ${EDO_MOCK_MODE:false}
+        base-url: ${EDO_BASE_URL:http://localhost:8081}
+        auth-type: ${EDO_AUTH_TYPE:API_KEY}
+        username: ${EDO_USERNAME:}
+        password: ${EDO_PASSWORD:}
+        bearer-token: ${EDO_BEARER_TOKEN:}
+        api-key-header: ${EDO_API_KEY_HEADER:X-Service-Token}
+        api-key: ${EDO_API_KEY:${DOCFLOW_MM_SERVICE_TOKEN:}}
+        client-id: ${EDO_CLIENT_ID:}
+        client-secret: ${EDO_CLIENT_SECRET:}
+        auth-path: ${EDO_AUTH_PATH:}
+        events-path: ${EDO_EVENTS_PATH:/api/documents/outgoing}
+        health-path: ${EDO_HEALTH_PATH:/actuator/health}
+      e-imzo:
+        enabled: true
+        mock-mode: ${E_IMZO_MOCK_MODE:true}
+        base-url: ${E_IMZO_BASE_URL:}
+        auth-type: ${E_IMZO_AUTH_TYPE:NONE}
+        username: ${E_IMZO_USERNAME:}
+        password: ${E_IMZO_PASSWORD:}
+        bearer-token: ${E_IMZO_BEARER_TOKEN:}
+        api-key-header: ${E_IMZO_API_KEY_HEADER:Authorization}
+        api-key: ${E_IMZO_API_KEY:}
+        client-id: ${E_IMZO_CLIENT_ID:}
+        client-secret: ${E_IMZO_CLIENT_SECRET:}
+        auth-path: ${E_IMZO_AUTH_PATH:}
+        events-path: ${E_IMZO_VERIFY_PATH:/api/signature/verify}
+        health-path: ${E_IMZO_HEALTH_PATH:/health}
+      ettn:
+        enabled: true
+        mock-mode: ${ETTN_MOCK_MODE:false}
+        base-url: ${ETTN_BASE_URL:http://localhost:8081}
+        auth-type: ${ETTN_AUTH_TYPE:API_KEY}
+        username: ${ETTN_USERNAME:}
+        password: ${ETTN_PASSWORD:}
+        bearer-token: ${ETTN_BEARER_TOKEN:}
+        api-key-header: ${ETTN_API_KEY_HEADER:X-Service-Token}
+        api-key: ${ETTN_API_KEY:${DOCFLOW_MM_SERVICE_TOKEN:}}
+        client-id: ${ETTN_CLIENT_ID:}
+        client-secret: ${ETTN_CLIENT_SECRET:}
+        auth-path: ${ETTN_AUTH_PATH:}
+        events-path: ${ETTN_EVENTS_PATH:/api/documents/outgoing}
+        health-path: ${ETTN_HEALTH_PATH:/actuator/health}
+      soliq:
+        enabled: true
+        mock-mode: ${SOLIQ_MOCK_MODE:true}
+        base-url: ${SOLIQ_BASE_URL:https://api.soliq-servis.uz}
+        auth-type: ${SOLIQ_AUTH_TYPE:NONE}
+        username: ${SOLIQ_USERNAME:}
+        password: ${SOLIQ_PASSWORD:}
+        bearer-token: ${SOLIQ_BEARER_TOKEN:}
+        api-key-header: ${SOLIQ_API_KEY_HEADER:Authorization}
+        api-key: ${SOLIQ_API_KEY:}
+        client-id: ${SOLIQ_CLIENT_ID:}
+        client-secret: ${SOLIQ_CLIENT_SECRET:}
+        auth-path: ${SOLIQ_AUTH_PATH:}
+        events-path: ${SOLIQ_EVENTS_PATH:/events}
+        health-path: ${SOLIQ_HEALTH_PATH:/health}
+      didox:
+        enabled: true
+        mock-mode: ${DIDOX_MOCK_MODE:true}
+        base-url: ${DIDOX_BASE_URL:https://api.didox.uz}
+        auth-type: ${DIDOX_AUTH_TYPE:NONE}
+        username: ${DIDOX_USERNAME:}
+        password: ${DIDOX_PASSWORD:}
+        bearer-token: ${DIDOX_BEARER_TOKEN:}
+        api-key-header: ${DIDOX_API_KEY_HEADER:Authorization}
+        api-key: ${DIDOX_API_KEY:}
+        client-id: ${DIDOX_CLIENT_ID:}
+        client-secret: ${DIDOX_CLIENT_SECRET:}
+        auth-path: ${DIDOX_AUTH_PATH:}
+        events-path: ${DIDOX_EVENTS_PATH:/v1/events}
+        health-path: ${DIDOX_HEALTH_PATH:/health}
+      faktura-uz:
+        enabled: true
+        mock-mode: ${FAKTURA_UZ_MOCK_MODE:true}
+        base-url: ${FAKTURA_UZ_BASE_URL:https://api.faktura.uz}
+        auth-type: ${FAKTURA_UZ_AUTH_TYPE:NONE}
+        username: ${FAKTURA_UZ_USERNAME:}
+        password: ${FAKTURA_UZ_PASSWORD:}
+        bearer-token: ${FAKTURA_UZ_BEARER_TOKEN:}
+        api-key-header: ${FAKTURA_UZ_API_KEY_HEADER:Authorization}
+        api-key: ${FAKTURA_UZ_API_KEY:}
+        client-id: ${FAKTURA_UZ_CLIENT_ID:}
+        client-secret: ${FAKTURA_UZ_CLIENT_SECRET:}
+        auth-path: ${FAKTURA_UZ_AUTH_PATH:https://account.faktura.uz/token}
+        events-path: ${FAKTURA_UZ_EVENTS_PATH:/Api/Document/ImportDocumentRegister}
+        health-path: ${FAKTURA_UZ_HEALTH_PATH:/Api/Health}
+      chatgpt:
+        enabled: true
+        mock-mode: ${CHATGPT_MOCK_MODE:true}
+        base-url: ${CHATGPT_BASE_URL:https://api.openai.com}
+        auth-type: ${CHATGPT_AUTH_TYPE:API_KEY}
+        username: ${CHATGPT_USERNAME:}
+        password: ${CHATGPT_PASSWORD:}
+        bearer-token: ${CHATGPT_BEARER_TOKEN:}
+        api-key-header: ${CHATGPT_API_KEY_HEADER:Authorization}
+        api-key: ${CHATGPT_API_KEY:}
+        client-id: ${CHATGPT_CLIENT_ID:}
+        client-secret: ${CHATGPT_CLIENT_SECRET:}
+        auth-path: ${CHATGPT_AUTH_PATH:}
+        events-path: ${CHATGPT_EVENTS_PATH:/v1/chat/completions}
+        health-path: ${CHATGPT_HEALTH_PATH:/v1/models}
+      claude:
+        enabled: true
+        mock-mode: ${CLAUDE_MOCK_MODE:true}
+        base-url: ${CLAUDE_BASE_URL:https://api.anthropic.com}
+        auth-type: ${CLAUDE_AUTH_TYPE:API_KEY}
+        username: ${CLAUDE_USERNAME:}
+        password: ${CLAUDE_PASSWORD:}
+        bearer-token: ${CLAUDE_BEARER_TOKEN:}
+        api-key-header: ${CLAUDE_API_KEY_HEADER:x-api-key}
+        api-key: ${CLAUDE_API_KEY:}
+        client-id: ${CLAUDE_CLIENT_ID:}
+        client-secret: ${CLAUDE_CLIENT_SECRET:}
+        auth-path: ${CLAUDE_AUTH_PATH:}
+        events-path: ${CLAUDE_EVENTS_PATH:/v1/messages}
+        health-path: ${CLAUDE_HEALTH_PATH:/v1/messages}
+      gemini:
+        enabled: true
+        mock-mode: ${GEMINI_MOCK_MODE:true}
+        base-url: ${GEMINI_BASE_URL:https://generativelanguage.googleapis.com}
+        auth-type: ${GEMINI_AUTH_TYPE:API_KEY}
+        username: ${GEMINI_USERNAME:}
+        password: ${GEMINI_PASSWORD:}
+        bearer-token: ${GEMINI_BEARER_TOKEN:}
+        api-key-header: ${GEMINI_API_KEY_HEADER:x-goog-api-key}
+        api-key: ${GEMINI_API_KEY:}
+        client-id: ${GEMINI_CLIENT_ID:}
+        client-secret: ${GEMINI_CLIENT_SECRET:}
+        auth-path: ${GEMINI_AUTH_PATH:}
+        events-path: ${GEMINI_EVENTS_PATH:/v1beta/models/{model}:generateContent}
+        health-path: ${GEMINI_HEALTH_PATH:/v1beta/models}
+      exchange:
+        enabled: true
+        mock-mode: ${EXCHANGE_MOCK_MODE:false}
+        base-url: ${EXCHANGE_BASE_URL:http://localhost:8082}
+        auth-type: ${EXCHANGE_AUTH_TYPE:BASIC}
+        username: ${EXCHANGE_USERNAME:${UZASSETS_INTEGRATION_USERNAME:}}
+        password: ${EXCHANGE_PASSWORD:${UZASSETS_INTEGRATION_PASSWORD:}}
+        bearer-token: ${EXCHANGE_BEARER_TOKEN:}
+        api-key-header: ${EXCHANGE_API_KEY_HEADER:Authorization}
+        api-key: ${EXCHANGE_API_KEY:}
+        client-id: ${EXCHANGE_CLIENT_ID:}
+        client-secret: ${EXCHANGE_CLIENT_SECRET:}
+        auth-path: ${EXCHANGE_AUTH_PATH:}
+        events-path: ${EXCHANGE_EVENTS_PATH:/api/v1/basic/treasury/tenders}
+        health-path: ${EXCHANGE_HEALTH_PATH:/api/v1/health/status}
+      wms:
+        enabled: true
+        mock-mode: ${WMS_MOCK_MODE:false}
+        base-url: ${WMS_BASE_URL:http://localhost:8090}
+        auth-type: ${WMS_AUTH_TYPE:API_KEY}
+        username: ${WMS_USERNAME:}
+        password: ${WMS_PASSWORD:}
+        bearer-token: ${WMS_BEARER_TOKEN:}
+        api-key-header: ${WMS_API_KEY_HEADER:X-Role}
+        api-key: ${WMS_API_KEY:}
+        client-id: ${WMS_CLIENT_ID:}
+        client-secret: ${WMS_CLIENT_SECRET:}
+        auth-path: ${WMS_AUTH_PATH:}
+        events-path: ${WMS_EVENTS_PATH:/api/v1/integrations/wms/transfers/confirm}
+        health-path: ${WMS_HEALTH_PATH:/actuator/health}
+      scada:
+        enabled: true
+        mock-mode: ${SCADA_MOCK_MODE:false}
+        base-url: ${SCADA_BASE_URL:http://localhost:8090}
+        auth-type: ${SCADA_AUTH_TYPE:API_KEY}
+        username: ${SCADA_USERNAME:}
+        password: ${SCADA_PASSWORD:}
+        bearer-token: ${SCADA_BEARER_TOKEN:}
+        api-key-header: ${SCADA_API_KEY_HEADER:X-Role}
+        api-key: ${SCADA_API_KEY:}
+        client-id: ${SCADA_CLIENT_ID:}
+        client-secret: ${SCADA_CLIENT_SECRET:}
+        auth-path: ${SCADA_AUTH_PATH:}
+        events-path: ${SCADA_EVENTS_PATH:/api/v1/integrations/scada/events/import}
+        health-path: ${SCADA_HEALTH_PATH:/actuator/health}
+      lims:
+        enabled: true
+        mock-mode: ${LIMS_MOCK_MODE:false}
+        base-url: ${LIMS_BASE_URL:http://localhost:8081}
+        auth-type: ${LIMS_AUTH_TYPE:API_KEY}
+        username: ${LIMS_USERNAME:}
+        password: ${LIMS_PASSWORD:}
+        bearer-token: ${LIMS_BEARER_TOKEN:}
+        api-key-header: ${LIMS_API_KEY_HEADER:X-User-Email}
+        api-key: ${LIMS_API_KEY:}
+        client-id: ${LIMS_CLIENT_ID:}
+        client-secret: ${LIMS_CLIENT_SECRET:}
+        auth-path: ${LIMS_AUTH_PATH:}
+        events-path: ${LIMS_EVENTS_PATH:/api/v1/samples}
+        health-path: ${LIMS_HEALTH_PATH:/api/v1/health}
+      one-c:
+        enabled: true
+        mock-mode: ${ONE_C_MOCK_MODE:false}
+        base-url: ${ONE_C_BASE_URL:http://localhost:8082}
+        auth-type: ${ONE_C_AUTH_TYPE:BASIC}
+        username: ${ONE_C_USERNAME:${UZASSETS_INTEGRATION_USERNAME:}}
+        password: ${ONE_C_PASSWORD:${UZASSETS_INTEGRATION_PASSWORD:}}
+        bearer-token: ${ONE_C_BEARER_TOKEN:}
+        api-key-header: ${ONE_C_API_KEY_HEADER:Authorization}
+        api-key: ${ONE_C_API_KEY:}
+        client-id: ${ONE_C_CLIENT_ID:}
+        client-secret: ${ONE_C_CLIENT_SECRET:}
+        auth-path: ${ONE_C_AUTH_PATH:}
+        events-path: ${ONE_C_EVENTS_PATH:/api/v1/basic/finmodel/integrations/entries}
+        health-path: ${ONE_C_HEALTH_PATH:/api/v1/health/status}
+  features:
+    fixed-assets:
+      enabled: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    syntax-highlight:
+      theme: monokai
+  api-docs:
+    path: /v3/api-docs
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      group:
+        deployment:
+          include: readinessState,db,diskSpace
+          show-details: never
+          show-components: never
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+logging:
+  level:
+    com.enterprise.mm: INFO

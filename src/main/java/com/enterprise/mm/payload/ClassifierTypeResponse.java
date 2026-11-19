@@ -1,0 +1,11 @@
+package com.enterprise.mm.payload;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class ClassifierTypeResponse extends BaseRecordDto {
+    private String module;
+    private boolean systemType;
+}

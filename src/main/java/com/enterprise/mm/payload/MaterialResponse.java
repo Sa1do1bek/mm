@@ -1,0 +1,80 @@
+package com.enterprise.mm.payload;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.enterprise.mm.enums.BatchTrackingPolicy;
+import com.enterprise.mm.enums.HazardClass;
+import com.enterprise.mm.enums.MaterialStatus;
+import com.enterprise.mm.enums.MaterialType;
+import com.enterprise.mm.enums.MaterialSubtype;
+import com.enterprise.mm.enums.SerialTrackingPolicy;
+import com.enterprise.mm.enums.TrackingMode;
+import com.enterprise.mm.enums.ValuationMethod;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.UUID;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class MaterialResponse extends BaseRecordDto {
+    private java.util.Map<String,Object> sourceData;
+    private Boolean incomingInspectionRequired;
+    private UUID materialGroupId;
+    private String materialGroupCode;
+    private String materialGroupName;
+    private UUID unitOfMeasureId;
+    private String unitOfMeasureCode;
+    private String unitOfMeasureShortName;
+    private String unitOfMeasureName;
+    private MaterialStatus materialStatus;
+    private MaterialType materialType;
+    private MaterialSubtype materialSubtype;
+    private TrackingMode trackingMode;
+    private BatchTrackingPolicy batchTrackingPolicy;
+    private SerialTrackingPolicy serialTrackingPolicy;
+    private ValuationMethod valuationMethod;
+    private BigDecimal minStock;
+    private BigDecimal safetyStock;
+    private BigDecimal reorderPoint;
+    private String barcode;
+    private String qrCode;
+    private String rfidTag;
+    private String analytics1;
+    private String analytics2;
+    private String analytics3;
+    private Long mxikId;
+    private String mxikCode;
+    private String mxikType;
+    private String mxikAttributeName;
+    private UUID tnvedCodeId;
+    private String tnvedCode;
+    private String tnvedCodeName;
+    private String article;
+    private UUID manufacturerId;
+    private String manufacturerName;
+    private String manufacturer;
+    private String countryOfOrigin;
+    private Integer shelfLifeDays;
+    private HazardClass hazardClass;
+    private BigDecimal maxStock;
+    private Integer replenishmentLeadTimeDays;
+    private BigDecimal averageCost;
+    private String averageCostCurrencyCode;
+    private UUID averageCostObservationId;
+    private String averageCostSourceType;
+    private UUID averageCostSourceEntityId;
+    private UUID averageCostSourceLineId;
+    private String averageCostDocumentCode;
+    private LocalDateTime averageCostObservedAt;
+    private LocalDateTime averageCostSelectedAt;
+    private UUID replacementMaterialId;
+    private String replacementMaterialCode;
+    private String replacementMaterialName;
+    private String lifecycleReason;
+    private LocalDateTime lifecycleChangedAt;
+    private List<MaterialAttributeResponse> attributes;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private MaterialAdviceDto advice;
+}

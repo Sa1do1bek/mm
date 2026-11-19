@@ -1,0 +1,952 @@
+{
+  "units": [
+    {
+      "id": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "code": "1C-UOM-af14001b2423947111dd5d6ef8f82788",
+      "shortName": "шт [1C 174]",
+      "longName": "Штука [1C 174]",
+      "shortNameRu": "шт",
+      "longNameRu": "Штука",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "QUANTITY",
+      "stockQuantityScale": 4,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "af14001b2423947111dd5d6ef8f82788",
+        "code": "174",
+        "shortName": "шт",
+        "fullName": "Штука",
+        "edoCode": "1"
+      }
+    },
+    {
+      "id": "c3814be3-bdc5-417c-812b-7d5f2a381e4e",
+      "code": "1C-UOM-8115001a4bcf769a11dd6917e608c590",
+      "shortName": "шт.",
+      "longName": "шт.",
+      "shortNameRu": "шт.",
+      "longNameRu": "шт.",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "QUANTITY",
+      "stockQuantityScale": 3,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "8115001a4bcf769a11dd6917e608c590",
+        "code": "92",
+        "shortName": "шт.",
+        "fullName": "шт.",
+        "edoCode": "1"
+      }
+    },
+    {
+      "id": "08dab0e6-590d-4635-9ed7-b7c5aa9fea6f",
+      "code": "1C-UOM-8438a0d3c1060d4b11ef3904bf2a2ff6",
+      "shortName": "литр [1C 241]",
+      "longName": "литр [1C 241]",
+      "shortNameRu": "литр",
+      "longNameRu": "литр",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "VOLUME",
+      "stockQuantityScale": 5,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "8438a0d3c1060d4b11ef3904bf2a2ff6",
+        "code": "241",
+        "shortName": "литр",
+        "fullName": "литр",
+        "edoCode": "23"
+      }
+    },
+    {
+      "id": "903aa8f3-42cd-4206-982b-9df74c722787",
+      "code": "1C-UOM-8115001a4bcf769a11dd6917e608c5ad",
+      "shortName": "Л [1C 65]",
+      "longName": "литр [1C 65]",
+      "shortNameRu": "Л",
+      "longNameRu": "литр",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "VOLUME",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "8115001a4bcf769a11dd6917e608c5ad",
+        "code": "65",
+        "shortName": "Л",
+        "fullName": "литр",
+        "edoCode": "23"
+      }
+    },
+    {
+      "id": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "code": "1C-UOM-af14001b2423947111dd5d6ef8f82787",
+      "shortName": "КГ [1C 166]",
+      "longName": "Килограмм [1C 166]",
+      "shortNameRu": "КГ",
+      "longNameRu": "Килограмм",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "WEIGHT",
+      "stockQuantityScale": 6,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "af14001b2423947111dd5d6ef8f82787",
+        "code": "166",
+        "shortName": "КГ",
+        "fullName": "Килограмм",
+        "edoCode": "5"
+      }
+    },
+    {
+      "id": "d925ffb2-97f6-464c-84ae-9184e47aac9c",
+      "code": "1C-UOM-af15001a73513caa11dd5d8f40878511",
+      "shortName": "КГ [1C 175]",
+      "longName": "килограмм [1C 175]",
+      "shortNameRu": "КГ",
+      "longNameRu": "килограмм",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "WEIGHT",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8f40878511",
+        "code": "175",
+        "shortName": "КГ",
+        "fullName": "килограмм",
+        "edoCode": "5"
+      }
+    },
+    {
+      "id": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "code": "1C-UOM-8115001a4bcf769a11dd6917e608c596",
+      "shortName": "ТН [1C 86]",
+      "longName": "тонна [1C 86]",
+      "shortNameRu": "ТН",
+      "longNameRu": "тонна",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": 7,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "8115001a4bcf769a11dd6917e608c596",
+        "code": "86",
+        "shortName": "ТН",
+        "fullName": "тонна",
+        "edoCode": "7"
+      }
+    },
+    {
+      "id": "462ab16d-76ad-400d-94e7-780665fde0be",
+      "code": "1C-UOM-8115001a4bcf769a11dd6917e608c58a",
+      "shortName": "М КВ [1C 98]",
+      "longName": "метр квадратный [1C 98]",
+      "shortNameRu": "М КВ",
+      "longNameRu": "метр квадратный",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "8115001a4bcf769a11dd6917e608c58a",
+        "code": "98",
+        "shortName": "М КВ",
+        "fullName": "метр квадратный",
+        "edoCode": "16"
+      }
+    },
+    {
+      "id": "c116b7ba-dc24-497b-8807-cf154708ff48",
+      "code": "1C-UOM-8690001a4bcf769a11dd8473372adb53",
+      "shortName": "м2 [1C 39]",
+      "longName": "метр квадратный [1C 39]",
+      "shortNameRu": "м2",
+      "longNameRu": "метр квадратный",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "AREA",
+      "stockQuantityScale": 6,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "8690001a4bcf769a11dd8473372adb53",
+        "code": "39",
+        "shortName": "м2",
+        "fullName": "метр квадратный",
+        "edoCode": "16"
+      }
+    },
+    {
+      "id": "99e2b97b-8ca2-4a5b-8351-9e1d54d9d81a",
+      "code": "1C-UOM-af15001a73513caa11dd5d8fbeb6dad2",
+      "shortName": "ШТ [1C 165]",
+      "longName": "штука [1C 165]",
+      "shortNameRu": "ШТ",
+      "longNameRu": "штука",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "QUANTITY",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8fbeb6dad2",
+        "code": "165",
+        "shortName": "ШТ",
+        "fullName": "штука",
+        "edoCode": "1"
+      }
+    },
+    {
+      "id": "eff89b79-735d-4dc1-842f-240f565dbbdf",
+      "code": "1C-UOM-8115001a4bcf769a11dd6917e608c5a6",
+      "shortName": "М [1C 71]",
+      "longName": "метр [1C 71]",
+      "shortNameRu": "М",
+      "longNameRu": "метр",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "LENGTH",
+      "stockQuantityScale": 5,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "8115001a4bcf769a11dd6917e608c5a6",
+        "code": "71",
+        "shortName": "М",
+        "fullName": "метр",
+        "edoCode": "11"
+      }
+    },
+    {
+      "id": "154b3de7-5eee-456f-a56a-9f3924358d11",
+      "code": "1C-UOM-af15001a73513caa11dd5d8f8a648042",
+      "shortName": "ПАР [1C 190]",
+      "longName": "пара [1C 190]",
+      "shortNameRu": "ПАР",
+      "longNameRu": "пара",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8f8a648042",
+        "code": "190",
+        "shortName": "ПАР",
+        "fullName": "пара",
+        "edoCode": "29"
+      }
+    },
+    {
+      "id": "672a2a69-a3a5-4d3d-a67e-4c0f794df92f",
+      "code": "1C-UOM-af15001a73513caa11dd5d8f7d832b00",
+      "shortName": "ТН [1C 184]",
+      "longName": "тонна [1C 184]",
+      "shortNameRu": "ТН",
+      "longNameRu": "тонна",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": 7,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8f7d832b00",
+        "code": "184",
+        "shortName": "ТН",
+        "fullName": "тонна",
+        "edoCode": "7"
+      }
+    },
+    {
+      "id": "a4bd3869-1533-461b-ac77-b145998f3fce",
+      "code": "1C-UOM-af15001a73513caa11dd5d8f40878514",
+      "shortName": "ШТ [1C 176]",
+      "longName": "штука [1C 176]",
+      "shortNameRu": "ШТ",
+      "longNameRu": "штука",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "QUANTITY",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8f40878514",
+        "code": "176",
+        "shortName": "ШТ",
+        "fullName": "штука",
+        "edoCode": "1"
+      }
+    },
+    {
+      "id": "24dd9ff2-9fe4-48a9-a1d7-410e9321a47e",
+      "code": "1C-UOM-af15001a73513caa11dd5d90919f20aa",
+      "shortName": "М [1C 147]",
+      "longName": "метр [1C 147]",
+      "shortNameRu": "М",
+      "longNameRu": "метр",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "LENGTH",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d90919f20aa",
+        "code": "147",
+        "shortName": "М",
+        "fullName": "метр",
+        "edoCode": "11"
+      }
+    },
+    {
+      "id": "0574853f-a7f4-41c8-b1b6-b329f83e19e0",
+      "code": "1C-UOM-af15001a73513caa11dd5d8fa536f336",
+      "shortName": "М КВ [1C 206]",
+      "longName": "метр квадратный [1C 206]",
+      "shortNameRu": "М КВ",
+      "longNameRu": "метр квадратный",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8fa536f336",
+        "code": "206",
+        "shortName": "М КВ",
+        "fullName": "метр квадратный",
+        "edoCode": "16"
+      }
+    },
+    {
+      "id": "f97ba7b7-1385-4d73-acea-9670e8a8cba9",
+      "code": "1C-UOM-af15001a73513caa11dd5d908ade9741",
+      "shortName": "КГ [1C 150]",
+      "longName": "килограмм [1C 150]",
+      "shortNameRu": "КГ",
+      "longNameRu": "килограмм",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "WEIGHT",
+      "stockQuantityScale": 7,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d908ade9741",
+        "code": "150",
+        "shortName": "КГ",
+        "fullName": "килограмм",
+        "edoCode": "5"
+      }
+    },
+    {
+      "id": "aced44f0-e718-4b7a-9d60-dcb01c1b0072",
+      "code": "1C-UOM-8115001a4bcf769a11dd6917e608c583",
+      "shortName": "КОМП [1C 107]",
+      "longName": "комплект [1C 107]",
+      "shortNameRu": "КОМП",
+      "longNameRu": "комплект",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "8115001a4bcf769a11dd6917e608c583",
+        "code": "107",
+        "shortName": "КОМП",
+        "fullName": "комплект",
+        "edoCode": "26"
+      }
+    },
+    {
+      "id": "46a4a813-1f13-484e-b749-823916c6805b",
+      "code": "1C-UOM-8690001a4bcf769a11dd83be7a0c3071",
+      "shortName": "КОМП [1C 50]",
+      "longName": "комплект [1C 50]",
+      "shortNameRu": "КОМП",
+      "longNameRu": "комплект",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": null,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "8690001a4bcf769a11dd83be7a0c3071",
+        "code": "50",
+        "shortName": "КОМП",
+        "fullName": "комплект",
+        "edoCode": "26"
+      }
+    },
+    {
+      "id": "d499e775-6d7b-4182-98c1-3dc7385b7cbe",
+      "code": "1C-UOM-8115001a4bcf769a11dd6917e608c592",
+      "shortName": "Т",
+      "longName": "тонна [1C 90]",
+      "shortNameRu": "Т",
+      "longNameRu": "тонна",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "WEIGHT",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "8115001a4bcf769a11dd6917e608c592",
+        "code": "90",
+        "shortName": "Т",
+        "fullName": "тонна",
+        "edoCode": "7"
+      }
+    },
+    {
+      "id": "f0b79b0d-861d-43dc-b07f-6cf2b74bc5b1",
+      "code": "1C-UOM-af15001a73513caa11dd5d8ff376e12c",
+      "shortName": "ШТ [1C 160]",
+      "longName": "штука [1C 160]",
+      "shortNameRu": "ШТ",
+      "longNameRu": "штука",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "QUANTITY",
+      "stockQuantityScale": 1,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8ff376e12c",
+        "code": "160",
+        "shortName": "ШТ",
+        "fullName": "штука",
+        "edoCode": "1"
+      }
+    },
+    {
+      "id": "aa615731-54b2-4eba-a374-c829e3674178",
+      "code": "1C-UOM-8438a0d3c1060d4b11ef3a8dc37d4d0a",
+      "shortName": "тонна [1C 242]",
+      "longName": "тонна [1C 242]",
+      "shortNameRu": "тонна",
+      "longNameRu": "тонна",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "WEIGHT",
+      "stockQuantityScale": 7,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "8438a0d3c1060d4b11ef3a8dc37d4d0a",
+        "code": "242",
+        "shortName": "тонна",
+        "fullName": "тонна",
+        "edoCode": "15"
+      }
+    },
+    {
+      "id": "724ba2e4-51fa-4c05-8e53-4f50f7c86d31",
+      "code": "1C-UOM-af15001a73513caa11dd5d8f97de69c2",
+      "shortName": "М3",
+      "longName": "кубический метр [1C 194]",
+      "shortNameRu": "М3",
+      "longNameRu": "кубический метр",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "VOLUME",
+      "stockQuantityScale": 7,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8f97de69c2",
+        "code": "194",
+        "shortName": "М3",
+        "fullName": "кубический метр",
+        "edoCode": "20"
+      }
+    },
+    {
+      "id": "626456ba-f840-4a23-be13-b1d0b3600ae0",
+      "code": "1C-UOM-af15001a73513caa11dd5d91fcb29c12",
+      "shortName": "СМ2",
+      "longName": "сантиметр квадратный",
+      "shortNameRu": "СМ2",
+      "longNameRu": "сантиметр квадратный",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d91fcb29c12",
+        "code": "18",
+        "shortName": "СМ2",
+        "fullName": "сантиметр квадратный",
+        "edoCode": "14"
+      }
+    },
+    {
+      "id": "e7bc0b58-d88c-4ad1-96c7-32636b8e78dc",
+      "code": "1C-UOM-af15001a73513caa11dd5d8f4087851b",
+      "shortName": "М [1C 179]",
+      "longName": "метр [1C 179]",
+      "shortNameRu": "М",
+      "longNameRu": "метр",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "LENGTH",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8f4087851b",
+        "code": "179",
+        "shortName": "М",
+        "fullName": "метр",
+        "edoCode": "11"
+      }
+    },
+    {
+      "id": "aa66f8b2-eb60-414c-9677-80520ea31870",
+      "code": "1C-UOM-af15001a73513caa11dd5d8f7d832b05",
+      "shortName": "ТН [1C 185]",
+      "longName": "тонна [1C 185]",
+      "shortNameRu": "ТН",
+      "longNameRu": "тонна",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": 6,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d8f7d832b05",
+        "code": "185",
+        "shortName": "ТН",
+        "fullName": "тонна",
+        "edoCode": "7"
+      }
+    },
+    {
+      "id": "38f3a10e-345e-4e62-b21c-595ff1e2bfc2",
+      "code": "1C-UOM-bc5da0d3c1060d4b11ef59ed5b4d6b58",
+      "shortName": "килограмм [1C 245]",
+      "longName": "килограмм [1C 245]",
+      "shortNameRu": "килограмм",
+      "longNameRu": "килограмм",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": 5,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "bc5da0d3c1060d4b11ef59ed5b4d6b58",
+        "code": "245",
+        "shortName": "килограмм",
+        "fullName": "килограмм",
+        "edoCode": "5"
+      }
+    },
+    {
+      "id": "b3cc9989-297d-44e8-a3a4-8359f92ea881",
+      "code": "1C-UOM-af15001a73513caa11dd5d913461286f",
+      "shortName": "ТН [1C 134]",
+      "longName": "тонна [1C 134]",
+      "shortNameRu": "ТН",
+      "longNameRu": "тонна",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d913461286f",
+        "code": "134",
+        "shortName": "ТН",
+        "fullName": "тонна",
+        "edoCode": "7"
+      }
+    },
+    {
+      "id": "d34ad128-8682-49d5-af1d-ef15a5293479",
+      "code": "1C-UOM-8115001a4bcf769a11dd6917e608c59a",
+      "shortName": "П.М [1C 83]",
+      "longName": "погонный метр [1C 83]",
+      "shortNameRu": "П.М",
+      "longNameRu": "погонный метр",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "LENGTH",
+      "stockQuantityScale": 5,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "8115001a4bcf769a11dd6917e608c59a",
+        "code": "83",
+        "shortName": "П.М",
+        "fullName": "погонный метр",
+        "edoCode": "51"
+      }
+    },
+    {
+      "id": "44e24440-efd6-4a27-a830-5d3dcf54ceca",
+      "code": "1C-UOM-af15001a73513caa11dd5d9069d5e250",
+      "shortName": "ШТ [1C 154]",
+      "longName": "штука [1C 154]",
+      "shortNameRu": "ШТ",
+      "longNameRu": "штука",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "QUANTITY",
+      "stockQuantityScale": 1,
+      "version": "1",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d9069d5e250",
+        "code": "154",
+        "shortName": "ШТ",
+        "fullName": "штука",
+        "edoCode": "0"
+      }
+    },
+    {
+      "id": "3e0528b0-e836-406d-a89c-fe20c06bed79",
+      "code": "1C-UOM-8115001a4bcf769a11dd6917e608c595",
+      "shortName": "К/Т",
+      "longName": "комплект [1C 87]",
+      "shortNameRu": "К/Т",
+      "longNameRu": "комплект",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "OTHER",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "8115001a4bcf769a11dd6917e608c595",
+        "code": "87",
+        "shortName": "К/Т",
+        "fullName": "комплект",
+        "edoCode": "26"
+      }
+    },
+    {
+      "id": "9ef1dbca-9834-4b4e-b42b-30fc8468c2ed",
+      "code": "1C-UOM-af15001a73513caa11dd5d908ade973f",
+      "shortName": "КГ [1C 151]",
+      "longName": "килограмм [1C 151]",
+      "shortNameRu": "КГ",
+      "longNameRu": "килограмм",
+      "shortNameUz": null,
+      "longNameUz": null,
+      "unitType": "WEIGHT",
+      "stockQuantityScale": null,
+      "version": "0",
+      "sourceUnit": {
+        "sourceId": "af15001a73513caa11dd5d908ade973f",
+        "code": "151",
+        "shortName": "КГ",
+        "fullName": "килограмм",
+        "edoCode": "5"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "contractUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "stockUnitId": "c3814be3-bdc5-417c-812b-7d5f2a381e4e",
+      "factor": "1",
+      "occurrences": 239
+    },
+    {
+      "contractUnitId": "08dab0e6-590d-4635-9ed7-b7c5aa9fea6f",
+      "stockUnitId": "903aa8f3-42cd-4206-982b-9df74c722787",
+      "factor": "1",
+      "occurrences": 2
+    },
+    {
+      "contractUnitId": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "stockUnitId": "d925ffb2-97f6-464c-84ae-9184e47aac9c",
+      "factor": "1",
+      "occurrences": 4
+    },
+    {
+      "contractUnitId": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "stockUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "factor": "1000",
+      "occurrences": 10
+    },
+    {
+      "contractUnitId": "462ab16d-76ad-400d-94e7-780665fde0be",
+      "stockUnitId": "c116b7ba-dc24-497b-8807-cf154708ff48",
+      "factor": "1",
+      "occurrences": 3
+    },
+    {
+      "contractUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "stockUnitId": "99e2b97b-8ca2-4a5b-8351-9e1d54d9d81a",
+      "factor": "1",
+      "occurrences": 8
+    },
+    {
+      "contractUnitId": "d925ffb2-97f6-464c-84ae-9184e47aac9c",
+      "stockUnitId": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "factor": "1",
+      "occurrences": 5
+    },
+    {
+      "contractUnitId": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "stockUnitId": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "factor": "1",
+      "occurrences": 34
+    },
+    {
+      "contractUnitId": "eff89b79-735d-4dc1-842f-240f565dbbdf",
+      "stockUnitId": "eff89b79-735d-4dc1-842f-240f565dbbdf",
+      "factor": "1",
+      "occurrences": 42
+    },
+    {
+      "contractUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "stockUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "factor": "1",
+      "occurrences": 128
+    },
+    {
+      "contractUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "stockUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "factor": "1",
+      "occurrences": 17
+    },
+    {
+      "contractUnitId": "154b3de7-5eee-456f-a56a-9f3924358d11",
+      "stockUnitId": "154b3de7-5eee-456f-a56a-9f3924358d11",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "stockUnitId": "d925ffb2-97f6-464c-84ae-9184e47aac9c",
+      "factor": "0.001",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "c3814be3-bdc5-417c-812b-7d5f2a381e4e",
+      "stockUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "factor": "1",
+      "occurrences": 10
+    },
+    {
+      "contractUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "stockUnitId": "672a2a69-a3a5-4d3d-a67e-4c0f794df92f",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "a4bd3869-1533-461b-ac77-b145998f3fce",
+      "stockUnitId": "c3814be3-bdc5-417c-812b-7d5f2a381e4e",
+      "factor": "1",
+      "occurrences": 2
+    },
+    {
+      "contractUnitId": "eff89b79-735d-4dc1-842f-240f565dbbdf",
+      "stockUnitId": "24dd9ff2-9fe4-48a9-a1d7-410e9321a47e",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "0574853f-a7f4-41c8-b1b6-b329f83e19e0",
+      "stockUnitId": "c116b7ba-dc24-497b-8807-cf154708ff48",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "stockUnitId": "f97ba7b7-1385-4d73-acea-9670e8a8cba9",
+      "factor": "1",
+      "occurrences": 24
+    },
+    {
+      "contractUnitId": "aced44f0-e718-4b7a-9d60-dcb01c1b0072",
+      "stockUnitId": "46a4a813-1f13-484e-b749-823916c6805b",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "d499e775-6d7b-4182-98c1-3dc7385b7cbe",
+      "stockUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "c3814be3-bdc5-417c-812b-7d5f2a381e4e",
+      "stockUnitId": "c3814be3-bdc5-417c-812b-7d5f2a381e4e",
+      "factor": "1",
+      "occurrences": 6
+    },
+    {
+      "contractUnitId": "f0b79b0d-861d-43dc-b07f-6cf2b74bc5b1",
+      "stockUnitId": "c3814be3-bdc5-417c-812b-7d5f2a381e4e",
+      "factor": "1",
+      "occurrences": 2
+    },
+    {
+      "contractUnitId": "d499e775-6d7b-4182-98c1-3dc7385b7cbe",
+      "stockUnitId": "aa615731-54b2-4eba-a374-c829e3674178",
+      "factor": "1",
+      "occurrences": 2
+    },
+    {
+      "contractUnitId": "a4bd3869-1533-461b-ac77-b145998f3fce",
+      "stockUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "724ba2e4-51fa-4c05-8e53-4f50f7c86d31",
+      "stockUnitId": "724ba2e4-51fa-4c05-8e53-4f50f7c86d31",
+      "factor": "1",
+      "occurrences": 3
+    },
+    {
+      "contractUnitId": "d925ffb2-97f6-464c-84ae-9184e47aac9c",
+      "stockUnitId": "f97ba7b7-1385-4d73-acea-9670e8a8cba9",
+      "factor": "1",
+      "occurrences": 2
+    },
+    {
+      "contractUnitId": "aa615731-54b2-4eba-a374-c829e3674178",
+      "stockUnitId": "672a2a69-a3a5-4d3d-a67e-4c0f794df92f",
+      "factor": "1",
+      "occurrences": 3
+    },
+    {
+      "contractUnitId": "f97ba7b7-1385-4d73-acea-9670e8a8cba9",
+      "stockUnitId": "f97ba7b7-1385-4d73-acea-9670e8a8cba9",
+      "factor": "1",
+      "occurrences": 10
+    },
+    {
+      "contractUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "stockUnitId": "a4bd3869-1533-461b-ac77-b145998f3fce",
+      "factor": "1",
+      "occurrences": 6
+    },
+    {
+      "contractUnitId": "626456ba-f840-4a23-be13-b1d0b3600ae0",
+      "stockUnitId": "626456ba-f840-4a23-be13-b1d0b3600ae0",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "eff89b79-735d-4dc1-842f-240f565dbbdf",
+      "stockUnitId": "e7bc0b58-d88c-4ad1-96c7-32636b8e78dc",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "c3814be3-bdc5-417c-812b-7d5f2a381e4e",
+      "stockUnitId": "f0b79b0d-861d-43dc-b07f-6cf2b74bc5b1",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "stockUnitId": "aa66f8b2-eb60-414c-9677-80520ea31870",
+      "factor": "1",
+      "occurrences": 6
+    },
+    {
+      "contractUnitId": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "stockUnitId": "38f3a10e-345e-4e62-b21c-595ff1e2bfc2",
+      "factor": "1",
+      "occurrences": 2
+    },
+    {
+      "contractUnitId": "b3cc9989-297d-44e8-a3a4-8359f92ea881",
+      "stockUnitId": "aa615731-54b2-4eba-a374-c829e3674178",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "f97ba7b7-1385-4d73-acea-9670e8a8cba9",
+      "stockUnitId": "d925ffb2-97f6-464c-84ae-9184e47aac9c",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "stockUnitId": "aa615731-54b2-4eba-a374-c829e3674178",
+      "factor": "1",
+      "occurrences": 3
+    },
+    {
+      "contractUnitId": "aa615731-54b2-4eba-a374-c829e3674178",
+      "stockUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "factor": "1",
+      "occurrences": 2
+    },
+    {
+      "contractUnitId": "d34ad128-8682-49d5-af1d-ef15a5293479",
+      "stockUnitId": "d34ad128-8682-49d5-af1d-ef15a5293479",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "38f3a10e-345e-4e62-b21c-595ff1e2bfc2",
+      "stockUnitId": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "f0b79b0d-861d-43dc-b07f-6cf2b74bc5b1",
+      "stockUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "903aa8f3-42cd-4206-982b-9df74c722787",
+      "stockUnitId": "903aa8f3-42cd-4206-982b-9df74c722787",
+      "factor": "1",
+      "occurrences": 3
+    },
+    {
+      "contractUnitId": "462ab16d-76ad-400d-94e7-780665fde0be",
+      "stockUnitId": "462ab16d-76ad-400d-94e7-780665fde0be",
+      "factor": "1",
+      "occurrences": 2
+    },
+    {
+      "contractUnitId": "08dab0e6-590d-4635-9ed7-b7c5aa9fea6f",
+      "stockUnitId": "08dab0e6-590d-4635-9ed7-b7c5aa9fea6f",
+      "factor": "1",
+      "occurrences": 2
+    },
+    {
+      "contractUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "stockUnitId": "44e24440-efd6-4a27-a830-5d3dcf54ceca",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "38f3a10e-345e-4e62-b21c-595ff1e2bfc2",
+      "stockUnitId": "d925ffb2-97f6-464c-84ae-9184e47aac9c",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "cb89b117-9504-41f2-aa44-ee0151ccec6b",
+      "stockUnitId": "aa615731-54b2-4eba-a374-c829e3674178",
+      "factor": "1000",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "99e2b97b-8ca2-4a5b-8351-9e1d54d9d81a",
+      "stockUnitId": "27d5e801-4d08-4ed0-b712-c5a29503807d",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "aced44f0-e718-4b7a-9d60-dcb01c1b0072",
+      "stockUnitId": "3e0528b0-e836-406d-a89c-fe20c06bed79",
+      "factor": "1",
+      "occurrences": 1
+    },
+    {
+      "contractUnitId": "9ef1dbca-9834-4b4e-b42b-30fc8468c2ed",
+      "stockUnitId": "8ea99402-0823-4560-acfb-3374dc532e76",
+      "factor": "1000",
+      "occurrences": 1
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+package com.enterprise.mm.controller;
+
+import lombok.RequiredArgsConstructor;
+import java.util.List;
+import com.enterprise.mm.payload.ApiResponse;
+import com.enterprise.mm.payload.ImportFreightBookingResponse;
+import com.enterprise.mm.payload.ImportFreightBookingUpdateRequest;
+import com.enterprise.mm.payload.ImportFreightBookingCreateRequest;
+import com.enterprise.mm.payload.PageResponse;
+import com.enterprise.mm.payload.ImportFreightBookingSearchRequest;
+import com.enterprise.mm.service.ImportFreightBookingService;
+import jakarta.validation.Valid;
+import java.util.UUID;
+import org.springframework.data.domain.Pageable;
+import com.enterprise.mm.common.PaginationUtils;
+import org.springframework.data.domain.Sort;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@RestController
+@RequestMapping("/api/import-freight-bookings")
+@RequiredArgsConstructor
+public class ImportFreightBookingController {
+    private final ImportFreightBookingService service;
+
+    @GetMapping
+    public ApiResponse<PageResponse<ImportFreightBookingResponse>> search(
+        @RequestParam(required = false) String search,
+        @RequestParam(required = false) java.util.List<String> status,
+        @RequestParam(required = false) java.time.LocalDate dateFrom,
+        @RequestParam(required = false) java.time.LocalDate dateTo,
+        @RequestParam(defaultValue = "false") boolean includeDeleted,
+        @RequestParam(defaultValue = "0") int page,
+        @RequestParam(defaultValue = "20") int size
+    ) {
+        Pageable pageable = PaginationUtils.pageRequest(
+            page,
+            size,
+            Sort.by("createdAt").descending()
+        );
+        ImportFreightBookingSearchRequest request = new ImportFreightBookingSearchRequest(search, status, dateFrom, dateTo, includeDeleted);
+        return ApiResponse.ok(PageResponse.from(service.search(request, pageable)));
+    }
+
+    @GetMapping("/{id}")
+    public ApiResponse<ImportFreightBookingResponse> get(@PathVariable UUID id) {
+        return ApiResponse.ok(service.get(id));
+    }
+
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public ApiResponse<ImportFreightBookingResponse> create(@Valid @RequestBody ImportFreightBookingCreateRequest request) {
+        return ApiResponse.created(service.create(request));
+    }
+
+    @PutMapping("/{id}")
+    public ApiResponse<ImportFreightBookingResponse> update(@PathVariable UUID id, @Valid @RequestBody ImportFreightBookingUpdateRequest request) {
+        return ApiResponse.ok(service.update(id, request));
+    }
+
+    @DeleteMapping("/{id}")
+    public ApiResponse<Void> delete(@PathVariable UUID id) {
+        service.softDelete(id);
+        return ApiResponse.message("soft-deleted");
+    }
+
+    @PostMapping("/{id}/restore")
+    public ApiResponse<ImportFreightBookingResponse> restore(@PathVariable UUID id) {
+        return ApiResponse.ok(service.restore(id));
+    }
+
+    @PostMapping("/{id}/book")
+    public ApiResponse<ImportFreightBookingResponse> book(@PathVariable UUID id) {
+        return ApiResponse.ok(service.book(id));
+    }
+
+    @PostMapping("/{id}/start-transit")
+    public ApiResponse<ImportFreightBookingResponse> startTransit(@PathVariable UUID id) {
+        return ApiResponse.ok(service.startTransit(id));
+    }
+
+    @PostMapping("/{id}/deliver")
+    public ApiResponse<ImportFreightBookingResponse> deliver(@PathVariable UUID id) {
+        return ApiResponse.ok(service.deliver(id));
+    }
+
+    @PostMapping("/{id}/post-cost")
+    public ApiResponse<ImportFreightBookingResponse> postCost(@PathVariable UUID id) {
+        return ApiResponse.ok(service.postCost(id));
+    }
+
+    @PostMapping("/{id}/cancel")
+    public ApiResponse<ImportFreightBookingResponse> cancel(@PathVariable UUID id) {
+        return ApiResponse.ok(service.cancel(id));
+    }
+
+}
+

@@ -1,0 +1,106 @@
+package com.enterprise.mm.controller;
+
+import lombok.RequiredArgsConstructor;
+import java.util.List;
+import java.util.UUID;
+import com.enterprise.mm.payload.AdvanceShippingNoticeResponse;
+import com.enterprise.mm.payload.AdvanceShippingNoticeUpdateRequest;
+import com.enterprise.mm.payload.AdvanceShippingNoticeCreateRequest;
+import com.enterprise.mm.payload.ApiResponse;
+import com.enterprise.mm.payload.PageResponse;
+import com.enterprise.mm.payload.AdvanceShippingNoticeSearchRequest;
+import com.enterprise.mm.service.AdvanceShippingNoticeService;
+import jakarta.validation.Valid;
+import org.springframework.data.domain.Pageable;
+import com.enterprise.mm.common.PaginationUtils;
+import org.springframework.data.domain.Sort;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@RestController
+@RequestMapping("/api/asn")
+@RequiredArgsConstructor
+public class AdvanceShippingNoticeController {
+    private final AdvanceShippingNoticeService service;
+
+    @GetMapping
+    public ApiResponse<PageResponse<AdvanceShippingNoticeResponse>> search(
+        @RequestParam(required = false) String search,
+        @RequestParam(required = false) java.util.List<String> status,
+        @RequestParam(required = false) java.util.UUID supplierId,
+        @RequestParam(required = false) java.util.UUID contractId,
+        @RequestParam(required = false) java.util.UUID purchaseOrderId,
+        @RequestParam(required = false) java.time.LocalDate dateFrom,
+        @RequestParam(required = false) java.time.LocalDate dateTo,
+        @RequestParam(defaultValue = "false") boolean includeDeleted,
+        @RequestParam(defaultValue = "0") int page,
+        @RequestParam(defaultValue = "20") int size
+    ) {
+        Pageable pageable = PaginationUtils.pageRequest(
+            page,
+            size,
+            Sort.by("createdAt").descending()
+        );
+        AdvanceShippingNoticeSearchRequest request = new AdvanceShippingNoticeSearchRequest(search, status, supplierId, contractId, purchaseOrderId, dateFrom, dateTo, includeDeleted);
+        return ApiResponse.ok(PageResponse.from(service.search(request, pageable)));
+    }
+
+    @GetMapping("/{id}")
+    public ApiResponse<AdvanceShippingNoticeResponse> get(@PathVariable UUID id) {
+        return ApiResponse.ok(service.get(id));
+    }
+
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public ApiResponse<AdvanceShippingNoticeResponse> create(@Valid @RequestBody AdvanceShippingNoticeCreateRequest request) {
+        return ApiResponse.created(service.create(request));
+    }
+
+    @PutMapping("/{id}")
+    public ApiResponse<AdvanceShippingNoticeResponse> update(@PathVariable UUID id, @Valid @RequestBody AdvanceShippingNoticeUpdateRequest request) {
+        return ApiResponse.ok(service.update(id, request));
+    }
+
+    @DeleteMapping("/{id}")
+    public ApiResponse<Void> delete(@PathVariable UUID id) {
+        service.softDelete(id);
+        return ApiResponse.message("soft-deleted");
+    }
+
+    @PostMapping("/{id}/restore")
+    public ApiResponse<AdvanceShippingNoticeResponse> restore(@PathVariable UUID id) {
+        return ApiResponse.ok(service.restore(id));
+    }
+
+    @PostMapping("/{id}/submit")
+    public ApiResponse<AdvanceShippingNoticeResponse> submit(@PathVariable UUID id) {
+        return ApiResponse.ok(service.submit(id));
+    }
+
+    @PostMapping("/{id}/confirm")
+    public ApiResponse<AdvanceShippingNoticeResponse> confirm(@PathVariable UUID id) {
+        return ApiResponse.ok(service.confirm(id));
+    }
+
+    @PostMapping("/{id}/receive")
+    public ApiResponse<AdvanceShippingNoticeResponse> markReceived(@PathVariable UUID id) {
+        return ApiResponse.ok(service.markReceived(id));
+    }
+
+    @PostMapping("/{id}/cancel")
+    public ApiResponse<AdvanceShippingNoticeResponse> cancel(@PathVariable UUID id) {
+        return ApiResponse.ok(service.cancel(id));
+    }
+
+}
+

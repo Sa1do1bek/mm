@@ -1,0 +1,72 @@
+spring:
+  application:
+    name: materials-management
+
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:prod}
+
+  messages:
+    basename: message
+    encoding: UTF-8
+
+  jackson:
+    time-zone: Asia/Tashkent
+
+  mvc:
+    async:
+      request-timeout: ${MM_ASYNC_REQUEST_TIMEOUT_MS:21600000}
+
+  jpa:
+    properties:
+      hibernate:
+        jdbc.time_zone: Asia/Tashkent
+
+  servlet:
+    multipart:
+      enabled: true
+      max-request-size: 50MB
+      max-file-size: 50MB
+server:
+  port: 8080
+
+app:
+  resources:
+    malware-scan-enabled: ${RESOURCE_MALWARE_SCAN_ENABLED:false}
+    clamav-host: ${RESOURCE_CLAMAV_HOST:}
+    clamav-port: ${RESOURCE_CLAMAV_PORT:3310}
+    default-language: ${RESOURCE_DEFAULT_LANGUAGE:uz}
+    worker-interval-ms: ${RESOURCE_KNOWLEDGE_WORKER_INTERVAL_MS:1000}
+  bootstrap:
+    enabled: ${APP_BOOTSTRAP_ENABLED:false}
+  warehouse:
+    transfers:
+      shipment-flow-enabled: ${TRANSFER_SHIPMENT_FLOW_ENABLED:true}
+  time-zone: Asia/Tashkent
+  firebase:
+    enabled: ${APP_FIREBASE_ENABLED:false}
+    project-id: ${APP_FIREBASE_PROJECT_ID:}
+    service-account-file: ${APP_FIREBASE_SERVICE_ACCOUNT_FILE:}
+    service-account-json: ${APP_FIREBASE_SERVICE_ACCOUNT_JSON:}
+    service-account-base64: ${APP_FIREBASE_SERVICE_ACCOUNT_BASE64:}
+
+valuation:
+  jobs:
+    executor:
+      core-pool-size: 1
+      max-pool-size: 2
+      queue-capacity: 20
+
+mm:
+  ai:
+    inventory-scoped-order-enabled: ${MM_AI_INVENTORY_SCOPED_ORDER_ENABLED:true}
+  integrations:
+    cbu:
+      enabled: true
+      url: https://cbu.uz/uz/arkhiv-kursov-valyut/json/
+      zone: Asia/Tashkent
+      morning-cron: "0 0 9 * * *"
+      afternoon-cron: "0 0 16 * * *"
+
+springdoc:
+  swagger-ui:
+    version: 5.32.2

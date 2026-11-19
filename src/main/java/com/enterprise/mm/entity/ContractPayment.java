@@ -1,0 +1,92 @@
+package com.enterprise.mm.entity;
+
+import com.enterprise.mm.common.BusinessEntity;
+import com.enterprise.mm.enums.CommercialInstrumentType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.PrePersist;
+import jakarta.persistence.PreUpdate;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotNull;
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.util.UUID;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Entity
+@Table(name = "contract_payments")
+public class ContractPayment extends BusinessEntity {
+    @Column(name = "contract_id")
+    private UUID contractId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "contract_id", insertable = false, updatable = false)
+    private Contract contract;
+
+    @NotNull
+    @Enumerated(EnumType.STRING)
+    @Column(name = "commercial_instrument_type", nullable = false, length = 40)
+    private CommercialInstrumentType commercialInstrumentType = CommercialInstrumentType.CONTRACT_CALLOFF;
+
+    @NotNull
+    @Column(name = "supplier_id", nullable = false)
+    private UUID supplierId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "supplier_id", insertable = false, updatable = false)
+    private Supplier supplier;
+
+    @Column(name = "contract_invoice_id")
+    private UUID contractInvoiceId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "contract_invoice_id", insertable = false, updatable = false)
+    private ContractInvoice contractInvoice;
+
+    @Column(name = "purchase_order_id")
+    private UUID purchaseOrderId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "purchase_order_id", insertable = false, updatable = false)
+    private PurchaseOrder purchaseOrder;
+
+    @Column(name = "source_document_type", length = 64)
+    private String sourceDocumentType;
+
+    @Column(name = "source_document_id")
+    private UUID sourceDocumentId;
+
+    @Column(name = "treasury_reference", length = 240)
+    private String treasuryReference;
+
+    @Column(name = "payment_number", length = 120)
+    private String paymentNumber;
+
+    @Column(name = "payment_date")
+    private LocalDate paymentDate;
+
+    @Column(precision = 19, scale = 4)
+    private BigDecimal amount = BigDecimal.ZERO;
+
+    @Column(name = "currency_code", length = 3)
+    private String currencyCode = "UZS";
+
+    @Column(name = "payment_method", length = 120)
+    private String paymentMethod;
+
+    @Column(name = "bank_reference", length = 240)
+    private String bankReference;
+
+    @PrePersist
+    @PreUpdate
+    private void syncRelations() {
+        contractId = contract == null ? contractId : contract.getId();
+        contractInvoiceId = contractInvoice == null ? contractInvoiceId : contractInvoice.getId();
+        purchaseOrderId = purchaseOrder == null ? purchaseOrderId : purchaseOrder.getId();
+        supplierId = supplier == null ? supplierId : supplier.getId();
+    }
+}

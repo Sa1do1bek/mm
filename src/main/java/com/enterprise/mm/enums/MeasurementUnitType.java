@@ -1,0 +1,33 @@
+package com.enterprise.mm.enums;
+
+public enum MeasurementUnitType {
+    MAIN,
+    WEIGHT,
+    LENGTH,
+    AREA,
+    VOLUME,
+    QUANTITY,
+
+    TIME,
+    TEMPERATURE,
+
+    ENERGY,
+    ELECTRICAL_POWER,
+    ELECTRICAL_ENERGY,
+    ELECTRICAL_CURRENT,
+    ELECTRICAL_VOLTAGE,
+    ELECTRICAL_CHARGE,
+
+    PACKAGING,
+    SERVICE,
+
+    CHEMICAL_QUANTITY,
+    RADIOACTIVITY,
+
+    PERCENTAGE,
+    CAPACITY,
+    TRANSPORT,
+    CURRENCY,
+
+    OTHER
+}

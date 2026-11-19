@@ -1,0 +1,78 @@
+{
+  "coordinatorThreadId": "01a0ebaf-ea05-71b3-8784-4c1f08c9c1fc",
+  "phase": "approved-implementation",
+  "priority": "warehouse operations and inventory",
+  "threads": [
+    {
+      "section": 1,
+      "name": "Справочники и организация учёта",
+      "threadId": "01a0ebc8-1db9-7c13-9841-c5fea338ae5d",
+      "hostId": "local"
+    },
+    {
+      "section": 2,
+      "name": "Потребности и обеспечение",
+      "threadId": "01a0ebc8-2eb6-7e81-ae17-fac81a2dc303",
+      "hostId": "local"
+    },
+    {
+      "section": 3,
+      "name": "Поставщики и закупки",
+      "threadId": "01a0ebc8-3ce9-7323-a4f9-e722066dd694",
+      "hostId": "local"
+    },
+    {
+      "section": 4,
+      "name": "Поставки и приёмка",
+      "threadId": "01a0ebc8-526a-7222-82cc-60afd7594e4b",
+      "hostId": "local"
+    },
+    {
+      "section": 5,
+      "name": "Остатки и перемещения",
+      "threadId": "01a0ebc8-5fee-73b2-a582-e288469f9902",
+      "hostId": "local"
+    },
+    {
+      "section": 6,
+      "name": "Внешнее хранение и специальные запасы",
+      "threadId": "01a0ebc8-7245-7441-85f0-a67a3954c54d",
+      "hostId": "local"
+    },
+    {
+      "section": 7,
+      "name": "Выдача, подотчёт и обеспечение производства",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "hostId": "local"
+    },
+    {
+      "section": 8,
+      "name": "Возвраты, качество, инвентаризация и выбытие",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "hostId": "local"
+    },
+    {
+      "section": 9,
+      "name": "Стоимость материалов и проверка счетов",
+      "threadId": "01a0ebc8-9d71-7ff3-a1d6-95338d4309c0",
+      "hostId": "local"
+    },
+    {
+      "section": 10,
+      "name": "Общие функции документов",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "hostId": "local"
+    },
+    {
+      "section": 11,
+      "name": "Отчёты MM",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "hostId": "local"
+    }
+  ],
+  "approval": {
+    "date": "2026-09-29",
+    "message": "approved, go ahead, implement"
+  },
+  "implementationWorkspace": "/Users/abdurahmoniy/Projects/work/MM-Navoiy/.worktrees"
+}

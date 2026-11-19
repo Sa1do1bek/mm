@@ -1,0 +1,22 @@
+package com.enterprise.mm.enums;
+
+public enum NonMovingStockStatus {
+    DETECTED,
+    CASE_CREATED,
+    UNDER_REVIEW,
+    COMMISSION_REVIEW,
+    DECISION_APPROVED,
+    IN_EXECUTION,
+    EXECUTED,
+    TRANSFER,
+    WRITE_OFF,
+    SCRAP,
+    IMPAIRMENT_RESERVE,
+    SELL,
+    RETURN_TO_SUPPLIER,
+    RESERVE_FOR_REPAIR,
+    KEEP_WITH_REVIEW_DATE,
+    RECLASSIFY,
+    CLOSED,
+    CANCELLED
+}

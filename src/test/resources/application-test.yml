@@ -1,0 +1,62 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:mm-${random.uuid};MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  flyway:
+    enabled: false
+    postgresql:
+      transactional-lock: false
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: false
+  main:
+    allow-bean-definition-overriding: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+
+app:
+  scheduling:
+    enabled: false
+  jwt:
+    secret: test-secret-test-secret-test-secret-test-secret
+    ttl-minutes: 60
+  rate-limit:
+    requests-per-minute: 10000
+  cors:
+    allowed-origins: "http://localhost:5173"
+    allowed-origin-patterns: "http://localhost:*"
+  inventory:
+    allow-negative-stock: false
+  attachments:
+    storage-root: ./target/test-attachments
+    max-size-bytes: 1048576
+  integrations:
+    settings-secret: test-only-integration-key-32-characters
+    message-queue:
+      enabled: false
+    systems:
+      lims:
+        enabled: true
+        mock-mode: true
+        base-url: ""
+        auth-type: API_KEY
+        api-key-header: X-User-Email
+        api-key: admin@lims.uz
+        events-path: /api/v1/samples
+        health-path: /api/v1/health
+      treasury:
+        enabled: true
+        mock-mode: true
+        base-url: ""
+        auth-type: NONE
+        events-path: /api/v1/basic/treasury/payments/requests
+        health-path: /api/v1/health/status

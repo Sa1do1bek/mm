@@ -1,0 +1,836 @@
+{
+  "objective": "Fully complete all 11 MM sections from the user's supplied scope",
+  "status": "active",
+  "firstMilestone": "Warehouse operations and inventory",
+  "assessmentDate": "2026-09-29",
+  "requirements": [
+    {
+      "id": "MM-01-01",
+      "section": 1,
+      "requirement": "Карточки материалов: создание, классификация, согласование, поиск дублей, блокировка устаревших позиций",
+      "status": "unverified",
+      "designFile": "section-01-design.md",
+      "threadId": "01a0ebc8-1db9-7c13-9841-c5fea338ae5d",
+      "evidence": []
+    },
+    {
+      "id": "MM-01-02",
+      "section": 1,
+      "requirement": "Характеристики, спецификации, сертификаты, единицы измерения и пересчёт; согласованные аналоги",
+      "status": "unverified",
+      "designFile": "section-01-design.md",
+      "threadId": "01a0ebc8-1db9-7c13-9841-c5fea338ae5d",
+      "evidence": []
+    },
+    {
+      "id": "MM-01-03",
+      "section": 1,
+      "requirement": "Организации, площадки, склады, зоны, ячейки, резервуары, цеховые кладовые и ответственные",
+      "status": "unverified",
+      "designFile": "section-01-design.md",
+      "threadId": "01a0ebc8-1db9-7c13-9841-c5fea338ae5d",
+      "evidence": []
+    },
+    {
+      "id": "MM-01-04",
+      "section": 1,
+      "requirement": "Политики партий, серийных номеров, срока годности, оценки и прослеживаемости",
+      "status": "unverified",
+      "designFile": "section-01-design.md",
+      "threadId": "01a0ebc8-1db9-7c13-9841-c5fea338ae5d",
+      "evidence": []
+    },
+    {
+      "id": "MM-01-05",
+      "section": 1,
+      "requirement": "Ввод и сверка начальных количеств, стоимости, партий, серий, владельцев и ответственных",
+      "status": "unverified",
+      "designFile": "section-01-design.md",
+      "threadId": "01a0ebc8-1db9-7c13-9841-c5fea338ae5d",
+      "evidence": []
+    },
+    {
+      "id": "MM-02-01",
+      "section": 2,
+      "requirement": "Сбор, корректировка, согласование и консолидация потребностей подразделений",
+      "status": "unverified",
+      "designFile": "section-02-design.md",
+      "threadId": "01a0ebc8-2eb6-7e81-ae17-fac81a2dc303",
+      "evidence": []
+    },
+    {
+      "id": "MM-02-02",
+      "section": 2,
+      "requirement": "Расчёт дефицита с учётом остатков, резервов и ожидаемых поступлений по датам",
+      "status": "unverified",
+      "designFile": "section-02-design.md",
+      "threadId": "01a0ebc8-2eb6-7e81-ae17-fac81a2dc303",
+      "evidence": []
+    },
+    {
+      "id": "MM-02-03",
+      "section": 2,
+      "requirement": "Минимальные, максимальные, страховые, критические и аварийные запасы; точки заказа и сроки поставки",
+      "status": "unverified",
+      "designFile": "section-02-design.md",
+      "threadId": "01a0ebc8-2eb6-7e81-ae17-fac81a2dc303",
+      "evidence": []
+    },
+    {
+      "id": "MM-02-04",
+      "section": 2,
+      "requirement": "Выбор покрытия: свободный запас, межскладской перенос, закупка, согласованный аналог",
+      "status": "unverified",
+      "designFile": "section-02-design.md",
+      "threadId": "01a0ebc8-2eb6-7e81-ae17-fac81a2dc303",
+      "evidence": []
+    },
+    {
+      "id": "MM-02-05",
+      "section": 2,
+      "requirement": "Полный/частичный резерв, изменение, освобождение, продление и перенос на другой заказ",
+      "status": "unverified",
+      "designFile": "section-02-design.md",
+      "threadId": "01a0ebc8-2eb6-7e81-ae17-fac81a2dc303",
+      "evidence": []
+    },
+    {
+      "id": "MM-02-06",
+      "section": 2,
+      "requirement": "Прослеживаемое исполнение: запрошено, согласовано, зарезервировано, заказано, получено, выдано; входящие потребности производства",
+      "status": "unverified",
+      "designFile": "section-02-design.md",
+      "threadId": "01a0ebc8-2eb6-7e81-ae17-fac81a2dc303",
+      "evidence": []
+    },
+    {
+      "id": "MM-03-01",
+      "section": 3,
+      "requirement": "Поставщики: регистрация, реквизиты, допуск по категориям, исполнение по срокам и качеству",
+      "status": "unverified",
+      "designFile": "section-03-design.md",
+      "threadId": "01a0ebc8-3ce9-7323-a4f9-e722066dd694",
+      "evidence": []
+    },
+    {
+      "id": "MM-03-02",
+      "section": 3,
+      "requirement": "Заявки на закупку: создание, согласование, объединение/разделение, изменение и отмена",
+      "status": "unverified",
+      "designFile": "section-03-design.md",
+      "threadId": "01a0ebc8-3ce9-7323-a4f9-e722066dd694",
+      "evidence": []
+    },
+    {
+      "id": "MM-03-03",
+      "section": 3,
+      "requirement": "Запрос котировок, предложения, сравнение цены и условий, выбор поставщика",
+      "status": "unverified",
+      "designFile": "section-03-design.md",
+      "threadId": "01a0ebc8-3ce9-7323-a4f9-e722066dd694",
+      "evidence": []
+    },
+    {
+      "id": "MM-03-04",
+      "section": 3,
+      "requirement": "Договоры, спецификации, допсоглашения, рамочные соглашения: сроки, лимиты, цены, объёмы и исполнение",
+      "status": "unverified",
+      "designFile": "section-03-design.md",
+      "threadId": "01a0ebc8-3ce9-7323-a4f9-e722066dd694",
+      "evidence": []
+    },
+    {
+      "id": "MM-03-05",
+      "section": 3,
+      "requirement": "Заказы и графики: согласование, отправка, подтверждение, изменение, частичное исполнение и закрытие",
+      "status": "unverified",
+      "designFile": "section-03-design.md",
+      "threadId": "01a0ebc8-3ce9-7323-a4f9-e722066dd694",
+      "evidence": []
+    },
+    {
+      "id": "MM-03-06",
+      "section": 3,
+      "requirement": "Услуги и работы: заказ, фактическая приёмка, соответствие договору",
+      "status": "unverified",
+      "designFile": "section-03-design.md",
+      "threadId": "01a0ebc8-3ce9-7323-a4f9-e722066dd694",
+      "evidence": []
+    },
+    {
+      "id": "MM-03-07",
+      "section": 3,
+      "requirement": "Претензии по недопоставке, браку, условиям: замена, возврат, корректировка; существующие тендер/KYC расширения не должны регрессировать",
+      "status": "unverified",
+      "designFile": "section-03-design.md",
+      "threadId": "01a0ebc8-3ce9-7323-a4f9-e722066dd694",
+      "evidence": []
+    },
+    {
+      "id": "MM-04-01",
+      "section": 4,
+      "requirement": "Ожидаемые поставки, графики и ASN: даты, состав, просрочки",
+      "status": "unverified",
+      "designFile": "section-04-design.md",
+      "threadId": "01a0ebc8-526a-7222-82cc-60afd7594e4b",
+      "evidence": []
+    },
+    {
+      "id": "MM-04-02",
+      "section": 4,
+      "requirement": "Приёмка по заказу, частичная приёмка, фактическое количество",
+      "status": "unverified",
+      "designFile": "section-04-design.md",
+      "threadId": "01a0ebc8-526a-7222-82cc-60afd7594e4b",
+      "evidence": []
+    },
+    {
+      "id": "MM-04-03",
+      "section": 4,
+      "requirement": "Недостачи, излишки, повреждения и несоответствия; согласование действий",
+      "status": "unverified",
+      "designFile": "section-04-design.md",
+      "threadId": "01a0ebc8-526a-7222-82cc-60afd7594e4b",
+      "evidence": []
+    },
+    {
+      "id": "MM-04-04",
+      "section": 4,
+      "requirement": "Приёмка партий/серий с происхождением, датой производства, сроком годности, качеством",
+      "status": "unverified",
+      "designFile": "section-04-design.md",
+      "threadId": "01a0ebc8-526a-7222-82cc-60afd7594e4b",
+      "evidence": []
+    },
+    {
+      "id": "MM-04-05",
+      "section": 4,
+      "requirement": "Прямая поставка подразделению, проекту или площадке с подтверждением получателя",
+      "status": "unverified",
+      "designFile": "section-04-design.md",
+      "threadId": "01a0ebc8-526a-7222-82cc-60afd7594e4b",
+      "evidence": []
+    },
+    {
+      "id": "MM-04-06",
+      "section": 4,
+      "requirement": "Импортное досье, транспортные/таможенные документы, расходы для полной стоимости",
+      "status": "unverified",
+      "designFile": "section-04-design.md",
+      "threadId": "01a0ebc8-526a-7222-82cc-60afd7594e4b",
+      "evidence": []
+    },
+    {
+      "id": "MM-04-07",
+      "section": 4,
+      "requirement": "Приёмка оборудования и комплектности; хранение и передача в монтаж/учёт ОС",
+      "status": "unverified",
+      "designFile": "section-04-design.md",
+      "threadId": "01a0ebc8-526a-7222-82cc-60afd7594e4b",
+      "evidence": []
+    },
+    {
+      "id": "MM-05-01",
+      "section": 5,
+      "requirement": "Физические, свободные, зарезервированные, заблокированные и транзитные количества",
+      "status": "unverified",
+      "designFile": "section-05-design.md",
+      "threadId": "01a0ebc8-5fee-73b2-a582-e288469f9902",
+      "evidence": []
+    },
+    {
+      "id": "MM-05-02",
+      "section": 5,
+      "requirement": "Перемещение внутри склада: зоны, ячейки, резервуары",
+      "status": "unverified",
+      "designFile": "section-05-design.md",
+      "threadId": "01a0ebc8-5fee-73b2-a582-e288469f9902",
+      "evidence": []
+    },
+    {
+      "id": "MM-05-03",
+      "section": 5,
+      "requirement": "Межскладское одно/двухэтапное перемещение, частичная отправка, транзит",
+      "status": "unverified",
+      "designFile": "section-05-design.md",
+      "threadId": "01a0ebc8-5fee-73b2-a582-e288469f9902",
+      "evidence": []
+    },
+    {
+      "id": "MM-05-04",
+      "section": 5,
+      "requirement": "Межцеховая передача материалов и полуфабрикатов с подтверждением",
+      "status": "unverified",
+      "designFile": "section-05-design.md",
+      "threadId": "01a0ebc8-5fee-73b2-a582-e288469f9902",
+      "evidence": []
+    },
+    {
+      "id": "MM-05-05",
+      "section": 5,
+      "requirement": "Межфирменное перемещение: связанные документы обеих организаций; расчёты через финансы",
+      "status": "unverified",
+      "designFile": "section-05-design.md",
+      "threadId": "01a0ebc8-5fee-73b2-a582-e288469f9902",
+      "evidence": []
+    },
+    {
+      "id": "MM-05-06",
+      "section": 5,
+      "requirement": "Транзитные недостачи/повреждения, отказ в приёмке и возврат",
+      "status": "unverified",
+      "designFile": "section-05-design.md",
+      "threadId": "01a0ebc8-5fee-73b2-a582-e288469f9902",
+      "evidence": []
+    },
+    {
+      "id": "MM-05-07",
+      "section": 5,
+      "requirement": "Контролируемое изменение состояния: доступно, карантин, блокировка и другие состояния",
+      "status": "unverified",
+      "designFile": "section-05-design.md",
+      "threadId": "01a0ebc8-5fee-73b2-a582-e288469f9902",
+      "evidence": []
+    },
+    {
+      "id": "MM-05-08",
+      "section": 5,
+      "requirement": "Сторно/корректировки с исходным документом и неизменяемой историей; WMS граница",
+      "status": "unverified",
+      "designFile": "section-05-design.md",
+      "threadId": "01a0ebc8-5fee-73b2-a582-e288469f9902",
+      "evidence": []
+    },
+    {
+      "id": "MM-06-01",
+      "section": 6,
+      "requirement": "Наши материалы у внешнего хранителя: передача, подтверждение, частичный возврат, сверка и инвентаризация",
+      "status": "unverified",
+      "designFile": "section-06-design.md",
+      "threadId": "01a0ebc8-7245-7441-85f0-a67a3954c54d",
+      "evidence": []
+    },
+    {
+      "id": "MM-06-02",
+      "section": 6,
+      "requirement": "Чужие материалы у нас: собственник, ответственное хранение, ограничения, выдача владельцу",
+      "status": "unverified",
+      "designFile": "section-06-design.md",
+      "threadId": "01a0ebc8-7245-7441-85f0-a67a3954c54d",
+      "evidence": []
+    },
+    {
+      "id": "MM-06-03",
+      "section": 6,
+      "requirement": "Консигнация: поступление, потребление/переход собственности и возврат",
+      "status": "unverified",
+      "designFile": "section-06-design.md",
+      "threadId": "01a0ebc8-7245-7441-85f0-a67a3954c54d",
+      "evidence": []
+    },
+    {
+      "id": "MM-06-04",
+      "section": 6,
+      "requirement": "Наши материалы у подрядчика: переработка/ремонт, расход, результат и остатки",
+      "status": "unverified",
+      "designFile": "section-06-design.md",
+      "threadId": "01a0ebc8-7245-7441-85f0-a67a3954c54d",
+      "evidence": []
+    },
+    {
+      "id": "MM-06-05",
+      "section": 6,
+      "requirement": "Обособленные запасы по проекту, заказу, ремонту, договору, получателю",
+      "status": "unverified",
+      "designFile": "section-06-design.md",
+      "threadId": "01a0ebc8-7245-7441-85f0-a67a3954c54d",
+      "evidence": []
+    },
+    {
+      "id": "MM-06-06",
+      "section": 6,
+      "requirement": "Возвратная тара: паллеты, контейнеры, баллоны; владелец и держатель; сверки",
+      "status": "unverified",
+      "designFile": "section-06-design.md",
+      "threadId": "01a0ebc8-7245-7441-85f0-a67a3954c54d",
+      "evidence": []
+    },
+    {
+      "id": "MM-06-07",
+      "section": 6,
+      "requirement": "VMI: соглашение, разрешённая передача данных, предложения и приёмка пополнения; VMI и собственность независимы",
+      "status": "unverified",
+      "designFile": "section-06-design.md",
+      "threadId": "01a0ebc8-7245-7441-85f0-a67a3954c54d",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-01",
+      "section": 7,
+      "requirement": "Выдача подразделению по потребности, назначению и лимиту",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-02",
+      "section": 7,
+      "requirement": "Передача ТМЦ сотруднику: персональный остаток, серия, состояние и срок возврата",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-03",
+      "section": 7,
+      "requirement": "Смена МОЛ с актом и подтверждением сторон",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-04",
+      "section": 7,
+      "requirement": "Полный/частичный возврат сотрудником с состоянием и комплектностью",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-05",
+      "section": 7,
+      "requirement": "Фактический расход у получателя с отчётом и закрытием выданного количества",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-06",
+      "section": 7,
+      "requirement": "Материалы на производственный заказ, смену или цех: резерв, выдача, возврат",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-07",
+      "section": 7,
+      "requirement": "Обеспечение ремонта по заказу/оборудованию и возврат неиспользованного",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-08",
+      "section": 7,
+      "requirement": "Строительство/монтаж: объект, проект, подрядчик, расход и остатки",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-09",
+      "section": 7,
+      "requirement": "Подтверждённое поступление продукции, полуфабрикатов и возвратных отходов",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-07-10",
+      "section": 7,
+      "requirement": "Возврат снятых узлов: источник, идентификация, годен/ремонт/списание; MES/ТОиР управляют работами",
+      "status": "unverified",
+      "designFile": "section-07-design.md",
+      "threadId": "01a0ebc8-7e5e-79c0-a04d-137c85324de6",
+      "evidence": []
+    },
+    {
+      "id": "MM-08-01",
+      "section": 8,
+      "requirement": "Возвраты поставщику, от подразделения/сотрудника/подрядчика и от покупателя: исходное движение, количество, состояние",
+      "status": "unverified",
+      "designFile": "section-08-design.md",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "evidence": []
+    },
+    {
+      "id": "MM-08-02",
+      "section": 8,
+      "requirement": "Качество: блокировка партии и разрешение использования на основании заключения",
+      "status": "unverified",
+      "designFile": "section-08-design.md",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "evidence": []
+    },
+    {
+      "id": "MM-08-03",
+      "section": 8,
+      "requirement": "Срок годности и повторная проверка: уведомление, блокировка, пересмотр, выбытие",
+      "status": "unverified",
+      "designFile": "section-08-design.md",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "evidence": []
+    },
+    {
+      "id": "MM-08-04",
+      "section": 8,
+      "requirement": "История партии/серии от поставщика до получателя, расхода и возврата",
+      "status": "unverified",
+      "designFile": "section-08-design.md",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "evidence": []
+    },
+    {
+      "id": "MM-08-05",
+      "section": 8,
+      "requirement": "Полный, выборочный, циклический и повторный пересчёт с комиссией и согласованием",
+      "status": "unverified",
+      "designFile": "section-08-design.md",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "evidence": []
+    },
+    {
+      "id": "MM-08-06",
+      "section": 8,
+      "requirement": "Проведение согласованных излишков и недостач",
+      "status": "unverified",
+      "designFile": "section-08-design.md",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "evidence": []
+    },
+    {
+      "id": "MM-08-07",
+      "section": 8,
+      "requirement": "Неликвиды: выявление, комиссия, перераспределение, возврат, продажа/списание",
+      "status": "unverified",
+      "designFile": "section-08-design.md",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "evidence": []
+    },
+    {
+      "id": "MM-08-08",
+      "section": 8,
+      "requirement": "Акты списания по согласованным причинам порчи, утраты, срока и непригодности",
+      "status": "unverified",
+      "designFile": "section-08-design.md",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "evidence": []
+    },
+    {
+      "id": "MM-08-09",
+      "section": 8,
+      "requirement": "Отходы/лом: оприходование, хранение, повторное использование, продажа или утилизация с подтверждением; LIMS/QMS и сбыт дают основания",
+      "status": "unverified",
+      "designFile": "section-08-design.md",
+      "threadId": "01a0ebc8-8be6-7233-acfd-6949a3231560",
+      "evidence": []
+    },
+    {
+      "id": "MM-09-01",
+      "section": 9,
+      "requirement": "Количественно-суммовая оценка по учётной политике",
+      "status": "unverified",
+      "designFile": "section-09-design.md",
+      "threadId": "01a0ebc8-9d71-7ff3-a1d6-95338d4309c0",
+      "evidence": []
+    },
+    {
+      "id": "MM-09-02",
+      "section": 9,
+      "requirement": "Полная стоимость приобретения: транспорт, таможня и другие согласованные расходы",
+      "status": "unverified",
+      "designFile": "section-09-design.md",
+      "threadId": "01a0ebc8-9d71-7ff3-a1d6-95338d4309c0",
+      "evidence": []
+    },
+    {
+      "id": "MM-09-03",
+      "section": 9,
+      "requirement": "Стоимостные корректировки цены, расходов и отклонений",
+      "status": "unverified",
+      "designFile": "section-09-design.md",
+      "threadId": "01a0ebc8-9d71-7ff3-a1d6-95338d4309c0",
+      "evidence": []
+    },
+    {
+      "id": "MM-09-04",
+      "section": 9,
+      "requirement": "Построчное сопоставление заказ–приёмка товара/услуги–счёт по количеству/цене; защита от дублей",
+      "status": "unverified",
+      "designFile": "section-09-design.md",
+      "threadId": "01a0ebc8-9d71-7ff3-a1d6-95338d4309c0",
+      "evidence": []
+    },
+    {
+      "id": "MM-09-05",
+      "section": 9,
+      "requirement": "Расхождения счёта: блокировка согласования, уточнение, корректировочный документ",
+      "status": "unverified",
+      "designFile": "section-09-design.md",
+      "threadId": "01a0ebc8-9d71-7ff3-a1d6-95338d4309c0",
+      "evidence": []
+    },
+    {
+      "id": "MM-09-06",
+      "section": 9,
+      "requirement": "Поступило, но не предъявлено к оплате: незакрытые позиции, сверка бухгалтерии",
+      "status": "unverified",
+      "designFile": "section-09-design.md",
+      "threadId": "01a0ebc8-9d71-7ff3-a1d6-95338d4309c0",
+      "evidence": []
+    },
+    {
+      "id": "MM-09-07",
+      "section": 9,
+      "requirement": "Закрытие периода: движения, стоимость, расхождения и запрет изменений; платежи/банк/амортизация/бухотчётность за финансовым контуром",
+      "status": "unverified",
+      "designFile": "section-09-design.md",
+      "threadId": "01a0ebc8-9d71-7ff3-a1d6-95338d4309c0",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-01",
+      "section": 10,
+      "requirement": "Номер, операция/регистрация, организация, подразделение, ответственный",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-02",
+      "section": 10,
+      "requirement": "Основания и связи до/после документа",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-03",
+      "section": 10,
+      "requirement": "Процессные статусы и согласования",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-04",
+      "section": 10,
+      "requirement": "Частичное исполнение и неисполненный остаток",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-05",
+      "section": 10,
+      "requirement": "Вложения, печатные формы и электронное подписание по требованиям",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-06",
+      "section": 10,
+      "requirement": "Права по организациям, складам, подразделениям, действиям",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-07",
+      "section": 10,
+      "requirement": "История изменений, решений и проведения",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-08",
+      "section": 10,
+      "requirement": "Сторно и исправление с сохранением оригинала",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-09",
+      "section": 10,
+      "requirement": "Доступное количество, идемпотентность, защита от двойного проведения и конкурентных операций",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-10",
+      "section": 10,
+      "requirement": "Уведомления о сроках, дефиците и действиях",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-11",
+      "section": 10,
+      "requirement": "Обмен ERP, WMS, MES, ТОиР, LIMS, HR, ОС; финансы в согласованных границах",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-10-12",
+      "section": 10,
+      "requirement": "Ошибки обмена, повторы и сверка межсистемных данных",
+      "status": "unverified",
+      "designFile": "section-10-design.md",
+      "threadId": "01a0ebc8-aef4-7482-a9df-ee986428d769",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-01",
+      "section": 11,
+      "requirement": "Остатки по организациям, площадкам, складам, цехам, ячейкам",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-02",
+      "section": 11,
+      "requirement": "Остатки по владельцам, МОЛ, сотрудникам, внешним хранителям",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-03",
+      "section": 11,
+      "requirement": "Свободно, резерв, блокировка, транзит",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-04",
+      "section": 11,
+      "requirement": "Движение материала/партии/серийного номера",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-05",
+      "section": 11,
+      "requirement": "Обеспеченность, дефицит, ожидаемые поступления",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-06",
+      "section": 11,
+      "requirement": "Исполнение потребностей, заявок, заказов, графиков",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-07",
+      "section": 11,
+      "requirement": "Материалы у подрядчика и на ответственном хранении",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-08",
+      "section": 11,
+      "requirement": "Выдано–израсходовано–возвращено–осталось у получателя",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-09",
+      "section": 11,
+      "requirement": "Срок хранения/годности, оборачиваемость, неликвиды",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-10",
+      "section": 11,
+      "requirement": "Инвентаризационные результаты, недостачи, излишки",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-11",
+      "section": 11,
+      "requirement": "Стоимость и дополнительные расходы",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-12",
+      "section": 11,
+      "requirement": "Расхождения заказ–приёмка–счёт",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-13",
+      "section": 11,
+      "requirement": "Качество и своевременность поставщика",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    },
+    {
+      "id": "MM-11-14",
+      "section": 11,
+      "requirement": "Незавершённые документы и интеграционные ошибки",
+      "status": "unverified",
+      "designFile": "section-11-design.md",
+      "threadId": "01a0ebc8-c38e-7e60-9f4b-4fa2e517eb80",
+      "evidence": []
+    }
+  ]
+}

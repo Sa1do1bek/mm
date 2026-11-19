@@ -1,0 +1,102 @@
+package com.enterprise.mm.payload;
+
+import com.enterprise.mm.enums.InventoryDiscrepancyDecisionType;
+import com.enterprise.mm.enums.InventoryDiscrepancyType;
+import com.enterprise.mm.enums.InventoryExplanationStatus;
+import com.enterprise.mm.enums.InventoryLineStatus;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.util.UUID;
+import lombok.Getter;
+import lombok.Setter;
+
+@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL)
+@Getter
+@Setter
+public class InventoryItemResponse extends BaseRecordDto {
+    private String unitCode;
+    private String unitLabel;
+    private int quantityScale = 4;
+    private String batchNumber;
+    private String serialNumber;
+    private java.time.LocalDate expiryDate;
+    private long countRevision;
+    private Long decisionCountRevision;
+    private String countState;
+    private String countComment;
+    private int countEvidenceCount;
+    private boolean foundStock;
+    private String foundReason;
+    private java.util.List<UUID> foundEvidenceIds;
+    private java.util.List<UUID> decisionEvidenceIds;
+    private String valuationBasis;
+    private java.util.List<UUID> valuationEvidenceIds;
+    private Long valuationCountRevision;
+    private String valuedBy;
+    private LocalDateTime valuedAt;
+    private String reviewBlocker;
+    private UUID sourceCorrectionMovementId;
+    private UUID reconciledSourceMovementId;
+    private UUID inventoryDocumentId;
+    private String inventoryDocumentCode;
+    private String inventoryDocumentName;
+    private UUID materialId;
+    private String materialCode;
+    private String materialName;
+    private BigDecimal systemQuantity;
+    private BigDecimal asOfQuantity;
+    private BigDecimal asOfValue;
+    private BigDecimal movementDelta;
+    private BigDecimal countedQuantity;
+    private BigDecimal differenceQuantity;
+    private UUID warehouseId;
+    private String warehouseCode;
+    private String warehouseName;
+    private UUID storageLocationId;
+    private String storageLocationCode;
+    private String storageLocationName;
+    private UUID storageBinId;
+    private String storageBinCode;
+    private String storageBinName;
+    private UUID stockBatchId;
+    private String stockBatchCode;
+    private String stockBatchName;
+    private BigDecimal unitCost;
+    private BigDecimal differenceAmount;
+    private InventoryLineStatus lineStatus;
+    private InventoryDiscrepancyType discrepancyType;
+    private String discrepancyReason;
+    private InventoryDiscrepancyDecisionType decisionType;
+    private UUID responsibleUserId;
+    private String responsibleUserCode;
+    private String responsibleUserName;
+    private UUID linkedStockMovementId;
+    private String linkedStockMovementCode;
+    private String linkedStockMovementName;
+    private UUID linkedPurchaseOrderId;
+    private String linkedPurchaseOrderCode;
+    private String linkedPurchaseOrderName;
+    private UUID linkedSupplierId;
+    private String linkedSupplierCode;
+    private String linkedSupplierName;
+    private UUID linkedContractId;
+    private String linkedContractCode;
+    private String linkedContractName;
+    private BigDecimal compensationAmount;
+    private String decisionComment;
+    private String decidedBy;
+    private LocalDateTime decidedAt;
+    private String commentText;
+    private String countedBy;
+    private LocalDateTime countedAt;
+    private InventoryExplanationStatus explanationStatus;
+    private String explanationRequestedFrom;
+    private LocalDateTime explanationRequestedAt;
+    private String explanationText;
+    private LocalDateTime explanationProvidedAt;
+    private String explanationReviewComment;
+    private LocalDateTime recountRequestedAt;
+    private String recountReason;
+    @com.fasterxml.jackson.annotation.JsonProperty(access = com.fasterxml.jackson.annotation.JsonProperty.Access.READ_ONLY)
+    public String getUnitShortName() { return com.enterprise.mm.common.UnitOfMeasureLabels.shortLabel(unitLabel); }
+}

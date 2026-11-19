@@ -1,0 +1,16 @@
+package com.enterprise.mm.procurement.command.enums;
+
+public enum ProcurementQueueKey {
+    BUYER_PREPARATION,
+    AWAITING_APPROVAL,
+    APPROVED_UNSOURCED,
+    PARTIALLY_ALLOCATED,
+    RFQ_AWAITING_QUOTES,
+    TENDER_BLOCKED,
+    QUOTATION_DECISION,
+    PO_PREPARATION,
+    PO_DISPATCH_BLOCKED,
+    PO_READY_TO_DISPATCH,
+    OVERDUE_WORK,
+    INTEGRATION_RISK
+}

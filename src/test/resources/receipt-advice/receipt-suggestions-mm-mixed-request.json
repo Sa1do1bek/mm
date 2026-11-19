@@ -1,0 +1,106 @@
+{
+  "companyId": "00000000-0000-0000-0000-000000000001",
+  "tenantId": "synthetic-only",
+  "language": "uz",
+  "backendContext": {
+    "contractId": "00000000-0000-0000-0000-000000000002",
+    "warehouseId": "00000000-0000-0000-0000-000000000003",
+    "warehouseName": "Synthetic electrical warehouse",
+    "warehousePurpose": "Stores electrical cables and equipment. Construction cement is outside its purpose.",
+    "profileVersion": 1,
+    "positions": {
+      "page": 0,
+      "size": 10,
+      "totalElements": 2,
+      "totalPages": 1,
+      "content": [
+        {
+          "specificationId": "00000000-0000-0000-0000-00000000000a",
+          "version": 1,
+          "name": "Copper electrical cable",
+          "status": "ACTIVE",
+          "kind": "MATERIAL_GROUP",
+          "readiness": {
+            "selectable": false,
+            "reasonCode": "MATERIAL_CHOICE_REQUIRED"
+          },
+          "candidateCount": 2,
+          "materials": [
+            {
+              "specificationId": "00000000-0000-0000-0000-00000000000a",
+              "materialId": "00000000-0000-0000-0000-000000000014",
+              "materialName": "Copper electrical cable",
+              "materialDescription": null,
+              "materialGroupId": null,
+              "materialGroupName": "Electrical materials",
+              "receiptSelection": {
+                "eligibility": "ALLOWED",
+                "recommendedSelected": false,
+                "decisionSource": "MATERIAL_GROUP_POLICY",
+                "reasonCode": "MATERIAL_CHOICE_REQUIRED",
+                "reasonText": "Choose material quantities within the shared contract group limit",
+                "policyVersion": 1
+              },
+              "unitShortName": "m",
+              "remainingReceiptQuantity": 10,
+              "contractQuantityPerStockQuantity": "1"
+            },
+            {
+              "specificationId": "00000000-0000-0000-0000-00000000000a",
+              "materialId": "00000000-0000-0000-0000-000000000016",
+              "materialName": "Alternative copper electrical cable",
+              "materialDescription": null,
+              "materialGroupId": null,
+              "materialGroupName": "Electrical materials",
+              "receiptSelection": {
+                "eligibility": "ALLOWED",
+                "recommendedSelected": false,
+                "decisionSource": "MATERIAL_GROUP_POLICY",
+                "reasonCode": "MATERIAL_CHOICE_REQUIRED",
+                "reasonText": "Choose material quantities within the shared contract group limit",
+                "policyVersion": 1
+              },
+              "unitShortName": "m",
+              "remainingReceiptQuantity": 10,
+              "contractQuantityPerStockQuantity": "1"
+            }
+          ],
+          "contractMaterialGroupId": "00000000-0000-0000-0000-000000000030"
+        },
+        {
+          "specificationId": "00000000-0000-0000-0000-00000000000b",
+          "version": 1,
+          "name": "Portland cement",
+          "status": "ACTIVE",
+          "kind": "MATERIAL",
+          "readiness": {
+            "selectable": false,
+            "reasonCode": "CONTRACT_UNIT_MISMATCH"
+          },
+          "candidateCount": 1,
+          "materials": [
+            {
+              "specificationId": "00000000-0000-0000-0000-00000000000b",
+              "materialId": "00000000-0000-0000-0000-000000000015",
+              "materialName": "Portland cement",
+              "materialDescription": null,
+              "materialGroupId": null,
+              "materialGroupName": "Construction materials",
+              "receiptSelection": {
+                "eligibility": "BLOCKED",
+                "recommendedSelected": false,
+                "decisionSource": "CONTRACT_READINESS",
+                "reasonCode": "CONTRACT_UNIT_MISMATCH",
+                "reasonText": "Resolve the contract position before receipt",
+                "policyVersion": null
+              },
+              "unitShortName": "kg",
+              "remainingReceiptQuantity": 10,
+              "contractQuantityPerStockQuantity": "1"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+package com.enterprise.mm.enums;
+
+public enum ProcurementProcedureStatus {
+    DRAFT,
+    READY,
+    PRICE_DISCOVERY,
+    TENDER_READY,
+    TENDER_DRAFT,
+    DIRECT_AWARD_DRAFT,
+    DIRECT_AWARD_APPROVED,
+    AUCTION_DRAFT,
+    AUCTION_PUBLISHED,
+    AUCTION_RUNNING,
+    AUCTION_CLOSED,
+    FRAMEWORK_DRAFT,
+    FRAMEWORK_AWARDED,
+    FRAMEWORK_ACTIVE,
+    LAUNCHED,
+    COMPLETED,
+    CANCELLED
+}

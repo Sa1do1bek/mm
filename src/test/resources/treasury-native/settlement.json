@@ -1,0 +1,1 @@
+{"protocolVersion":1,"sourceBaseId":"test-treasury","eventId":"10000000-0000-0000-0000-000000000002","eventType":"PAYMENT.SETTLED","nativeRequestId":"20000000-0000-0000-0000-000000000001","revision":1,"payload":{"nativePaymentId":"test-fixture:execution-40","amount":"40.00","currency":"UZS","paymentDate":"2026-11-17","finality":"FINAL","sourceKind":"TEST_FIXTURE"}}

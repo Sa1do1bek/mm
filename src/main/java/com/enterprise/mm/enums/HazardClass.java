@@ -1,0 +1,14 @@
+package com.enterprise.mm.enums;
+
+public enum HazardClass {
+    NONE,
+    CLASS_1_EXPLOSIVES,
+    CLASS_2_GASES,
+    CLASS_3_FLAMMABLE,
+    CLASS_4_FLAMMABLE_SOLIDS,
+    CLASS_5_OXIDIZING,
+    CLASS_6_TOXIC,
+    CLASS_7_RADIOACTIVE,
+    CLASS_8_CORROSIVE,
+    CLASS_9_MISCELLANEOUS
+}

@@ -1,0 +1,1433 @@
+[
+  {
+    "accountCode": "1060",
+    "balanceId": "01998e4d-79fa-4011-9cb7-ce4a11ee92a9",
+    "materialId": "7443a3bc-831a-4bcf-9607-6950b9eb9a89",
+    "sourceId": "ae20001a4bcf769a11e1b6aa63e0ec65",
+    "batchId": "07541b30-0ce1-49fb-bc55-4fd4f8874cfb",
+    "warehouseId": "a47f9cda-074d-4bab-969c-c040a7abe561",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "0211adb1-ecfa-4ac8-9b11-eddf8feefaac",
+    "materialId": "86983046-d5a9-49a3-895f-22bd9c4cbc35",
+    "sourceId": "9827a0d3c1060d4b11e93bd86630b66f",
+    "batchId": "c6647666-1a86-4b69-bff9-f42d50e47e5a",
+    "warehouseId": "4450053a-5d12-48e6-8512-2c5392540a7a",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "05138981-e422-4041-aaa0-ac16af6d786d",
+    "materialId": "6c1caf33-0da6-4068-b348-01c6395bb029",
+    "sourceId": "af15001a73513caa11dd5d903b049524",
+    "batchId": "e6ec3175-781b-428a-8c3f-68d5dfae7245",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "055bdc36-d459-49bf-bb29-4f1e724b8ef8",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "0b835a41-71ff-4259-8bc7-047c6a9d6581",
+    "warehouseId": "8d606259-6e91-4f0d-93be-9346d8991c33",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "05e07b44-f419-4b85-b87f-515c90a6c545",
+    "materialId": "76ddefe7-eae9-4a4c-bad4-5352b10507cd",
+    "sourceId": "817d001a4bcf769a11e0463214523901",
+    "batchId": "7a0e211e-6db1-4475-8f71-9ae5efd2aa5a",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "06500315-c6da-4b8d-b30a-6a82825ab6f5",
+    "materialId": "5e159cc0-97d0-46b5-b1a8-f8f05c80feef",
+    "sourceId": "af15001a73513caa11dd5d90a5d7312f",
+    "batchId": "60a86fe5-caed-4801-b632-7abefe9e4c18",
+    "warehouseId": "9e902184-bc1c-49fc-9e5e-957a9559a6f7",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "06a02fae-96dc-4419-b878-9082d91d8b99",
+    "materialId": "659fa94d-9689-4cff-bc25-2a21bc7ad0fb",
+    "sourceId": "bb3fa0d3c1060d4b11ea3e703c45c008",
+    "batchId": "ee392c5b-1161-4473-aff1-0945a6490f98",
+    "warehouseId": "4450053a-5d12-48e6-8512-2c5392540a7a",
+    "quantity": "60.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "0879bb1a-6a13-4c2f-9c68-18ca588ea33f",
+    "materialId": "f65f6102-4656-4a0e-94ba-8e3d532a957a",
+    "sourceId": "9ddca0d3c1060d4b11e816c3735afa42",
+    "batchId": "70ea1d3b-e34d-4ea2-bac7-b2f6ffe859e2",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "0a1df9d9-f3f0-44d1-a57b-e2d5e768c2be",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "872d1955-0b0b-4d25-afe7-5d22b32b1d68",
+    "warehouseId": "123c1dab-8363-4d16-ae6c-86be2e7ef0a3",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "0d2b3930-bddb-4d78-9920-167110123677",
+    "materialId": "62e7144a-b6eb-4e48-bb77-1c5f5d76ef77",
+    "sourceId": "af15001a73513caa11dd5d90aca60814",
+    "batchId": "c27bbf45-c0f9-4d09-b148-e3af66d836b8",
+    "warehouseId": "4450053a-5d12-48e6-8512-2c5392540a7a",
+    "quantity": "11.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "0f3fa8c5-6d24-4c36-8d53-2728a68feda0",
+    "materialId": "97b4dc72-f1c3-4a28-9b6c-f5aec051ed07",
+    "sourceId": "b1c1d4f5efa0150011f18b26d1a6c6f1",
+    "batchId": "99a76157-0a1f-41da-bd8e-9a01e0b24eae",
+    "warehouseId": "eda55dd1-3978-453b-ab69-54f551e7407b",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "0f4cf2d7-c083-42d3-8993-5539c719a956",
+    "materialId": "97a6f705-5bc1-4ce9-97e4-d922d306e918",
+    "sourceId": "af15001a73513caa11dd5d91278236f3",
+    "batchId": "9a84a617-dc48-4908-94bb-5c1ebe3256a9",
+    "warehouseId": "6970e18f-ae3a-441c-bbc5-e9a072b719ab",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "139d61da-6e2a-44b7-a4d3-0eef7563415d",
+    "materialId": "9bb2fab5-7e95-4ea8-a18e-7a580ca3f734",
+    "sourceId": "a4fba0d3c1060d4b11eee4d2566cef22",
+    "batchId": "d151d424-46be-4c17-96da-5b1fba742987",
+    "warehouseId": "b600692b-a370-418a-9e22-0366ad474398",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1015",
+    "balanceId": "151e4fb8-a304-4da3-a79a-2cd462a68e88",
+    "materialId": "6b109ad7-4140-4941-8b95-3dc77d235a7d",
+    "sourceId": "afbd001a4bcf769a11de72b0dd002646",
+    "batchId": "cf19c514-aa41-49a7-975b-fd0786d76c8b",
+    "warehouseId": "ee567800-c0ce-4114-80c6-bcb51c509f64",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "16215479-2c68-4536-9731-ad10347772b5",
+    "materialId": "20770c75-e784-4c05-aed8-2a64e24a1eb4",
+    "sourceId": "af15001a73513caa11dd5d90aca6080f",
+    "batchId": "5d87c391-ef72-4528-9c8e-1f91e5c26ac0",
+    "warehouseId": "4b5c0682-7991-4058-bee9-0b46de741042",
+    "quantity": "19.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "162bdf3f-8280-448d-98ab-05ebb156ef14",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "a16dd32b-846e-4c20-9fbc-2b9ccfd4aa88",
+    "warehouseId": "413af539-92e7-4e26-89be-25df29916b16",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "178fd467-f3dc-4602-a866-ac2b92f95772",
+    "materialId": "750452fb-a11b-4696-b5bc-000feb8afef1",
+    "sourceId": "b2e9001a4bcf769a11df8ef72461616a",
+    "batchId": "55d54e95-1ebb-4c23-9289-cce7ef28e1f0",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "7.0000000"
+  },
+  {
+    "accountCode": "1090",
+    "balanceId": "17eaf29f-7f4e-447b-a8b5-e3a5636290cb",
+    "materialId": "09220b72-4ca8-46ac-8bb5-e2884610c9e1",
+    "sourceId": "846da0d3c1060d4b11e842ead0e16bec",
+    "batchId": "08232708-2505-4c13-8ed9-45a6b823e081",
+    "warehouseId": "b94ab8cc-3910-44f2-9bbd-b163911da302",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "199686f3-9d56-4458-9d6d-acc62b38cadb",
+    "materialId": "581550d7-3a88-4bcb-9f1e-8afa1cba1e0f",
+    "sourceId": "9588a0d3c1060d4b11e64f30db53ba29",
+    "batchId": "d58a37ad-3a0f-46d3-9104-5ba02b218f3c",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "1aa646a5-5009-4fae-a330-d1a2476da0df",
+    "materialId": "3bfe6d56-bc18-4165-a0f3-b003afa22e41",
+    "sourceId": "af15001a73513caa11dd5d914830519c",
+    "batchId": "d5f2e724-830c-4f17-b652-f68c070a1e71",
+    "warehouseId": "9e902184-bc1c-49fc-9e5e-957a9559a6f7",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "1de6191c-9e31-431a-af7e-52acde8514e4",
+    "materialId": "0089dcab-cdde-4408-a6e6-55874ccd2eda",
+    "sourceId": "af15001a73513caa11dd5d8f911de214",
+    "batchId": "d217d5ab-8cd8-44f6-bd73-dc012725b4e7",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "40.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "1ea74095-9ed3-4ef9-b49c-12914e22e805",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "ff20cfcb-7765-482c-acd3-42c0be8fd847",
+    "warehouseId": "cd7a03fb-3e38-4396-9a99-8501c0a1b9fd",
+    "quantity": "7.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "1f3913d0-2bc3-4a22-ac1a-6e4735859c4e",
+    "materialId": "75239ef1-8c70-431d-932d-3374ad2d2327",
+    "sourceId": "af15001a73513caa11dd5d9134612840",
+    "batchId": "784e6652-32ed-470b-a6cd-fa110523444c",
+    "warehouseId": "9e902184-bc1c-49fc-9e5e-957a9559a6f7",
+    "quantity": "10.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "2281d62d-974e-4a20-8eed-5c254389236c",
+    "materialId": "ca210e98-bf03-49ba-9ad6-bbfbecfc8e38",
+    "sourceId": "af15001a73513caa11dd5d90ee15534a",
+    "batchId": "f2333209-dc65-47a0-88f8-41a50f9b97a4",
+    "warehouseId": "741373f2-576a-4703-9fc4-7be7f902f7a4",
+    "quantity": "12242.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "233a405b-e5bd-410a-be08-7a39bf12ef8b",
+    "materialId": "2227fb1d-9c71-4071-a179-abc5b975c82e",
+    "sourceId": "b9e6001a4bcf769a11de490f597b9bd1",
+    "batchId": "2dc60054-02d0-495c-bb7b-e5ec668a75a4",
+    "warehouseId": "4450053a-5d12-48e6-8512-2c5392540a7a",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "23e5e4bd-5b16-402c-bae9-37c4a989a8f7",
+    "materialId": "538f2b2f-c6d9-4568-882c-378e4c3fa814",
+    "sourceId": "af15001a73513caa11dd5d9069d5e2ba",
+    "batchId": "5300951b-f7c3-42b1-a87e-62ee48192a61",
+    "warehouseId": "a47f9cda-074d-4bab-969c-c040a7abe561",
+    "quantity": "6.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "26c54a05-ba6a-4270-883a-e8339ba50a67",
+    "materialId": "fbd9201c-5b9f-4c61-8ce6-b0e51932402e",
+    "sourceId": "af15001a73513caa11dd5d8f911de22f",
+    "batchId": "e9be755b-0c0e-403b-b63a-2ebd4ed53d3d",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "56.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "29d872d5-fd9e-4d12-8a14-ebf1eeb7493e",
+    "materialId": "a1001f25-54a5-4646-9abe-fe3f5377bfbd",
+    "sourceId": "895c001a4bcf769a11de2a63468c8aa4",
+    "batchId": "a08074a9-0065-41ed-b752-831cc09569ad",
+    "warehouseId": "4e426b9a-8b43-49ee-aba2-ef1944890c1d",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "2b412e8e-84d1-4381-904d-742639595270",
+    "materialId": "1ddd98fb-d392-4259-8e23-8c3de1354bb9",
+    "sourceId": "beaca0d3c1060d4b11ed6ed6824d5011",
+    "batchId": "46227ba1-42b4-46ff-9d8a-867f7a876fb3",
+    "warehouseId": "741373f2-576a-4703-9fc4-7be7f902f7a4",
+    "quantity": "400.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "2cdd2c22-fd50-4dcf-831b-e58c2dd22312",
+    "materialId": "11b0eeed-0c33-494d-bc39-9b86cb413d8e",
+    "sourceId": "b1bf001a4bcf769a11e08c13bc4febd1",
+    "batchId": "384d112d-e17e-4c51-a535-ffbee9e6e2f5",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "2d51a919-1332-43da-84af-3aa8ffb7fbab",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "01894c41-2ce4-44f2-9516-c32546047e27",
+    "warehouseId": "96d128ff-67d8-45b8-85b4-59b2d911a787",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "2dfcaf35-6db8-46d4-ac79-c638b393caaa",
+    "materialId": "0f60ad8d-043f-4d15-9494-affc63b3c96b",
+    "sourceId": "bfcaa0d3c1060d4b11ecec75abb1d450",
+    "batchId": "5b65c4c9-04c1-432f-ac8d-53c986ce1c17",
+    "warehouseId": "8d0c91f8-cf83-446d-96d4-092b6f349548",
+    "quantity": "2752.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "2e9f4229-fa76-440b-9300-c61edbc84dd0",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "82b8a8a9-8534-4cef-b8e5-e26aaf3c3244",
+    "warehouseId": "7e13edb9-f077-4e45-9f8b-426c29ad4edc",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "32cc17af-0f09-4bc0-8df9-2212bcb2cf1e",
+    "materialId": "f393ed4d-3be3-4a2f-8efa-51306e93d00b",
+    "sourceId": "b11e3cd92b02bec811e3df0925bc5647",
+    "batchId": "d75cc060-d1fb-4189-bae1-dc34747cfc9d",
+    "warehouseId": "a235fb61-7e05-4ed3-9668-0c98a6757aea",
+    "quantity": "130.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "3374f4c8-dc51-4fb3-a6e8-3b8655964019",
+    "materialId": "b5b0fa82-5049-4302-8b4c-a1d38e1f365a",
+    "sourceId": "af15001a73513caa11dd5d9168c1d0b5",
+    "batchId": "13b3d42d-0181-4814-a222-62a7b4a2ec4e",
+    "warehouseId": "725ac5a5-2deb-44f9-a0f7-8c34f0a0a37a",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "384300ef-8ef0-469c-bec6-32509bf1bc1e",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "b8a8c079-f441-4745-9da6-862a4b672b09",
+    "warehouseId": "282c837b-a2e7-4245-84a2-23f4836da813",
+    "quantity": "6.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "38c2e59f-527d-4a67-a3b5-81fc4ada8362",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "9ee45b56-748a-495d-b6b7-088764d39106",
+    "warehouseId": "7c34bb3f-b39b-46c9-86f7-5b894169b7d3",
+    "quantity": "15.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "391de892-7cad-448d-b5e6-0791b1841a1a",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "06dd45d2-668a-4b09-8c8c-a6bffa7fbdaa",
+    "warehouseId": "24edb46c-aa97-43cd-8799-314b648f13f5",
+    "quantity": "177.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "3c52e64d-e9dd-4c5a-9a15-520cc9dbc485",
+    "materialId": "47869fad-804b-4de4-a019-e54abaa8aeef",
+    "sourceId": "afbd001a4bcf769a11de72b0dd002644",
+    "batchId": "20a0c6b4-43be-4026-bcb1-3601b7b96c26",
+    "warehouseId": "d1ed728b-78a0-484a-8bb3-e04f27f4bee2",
+    "quantity": "100.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "3de079dc-c531-40c1-a8a2-2772c4cd4211",
+    "materialId": "f393ed4d-3be3-4a2f-8efa-51306e93d00b",
+    "sourceId": "b11e3cd92b02bec811e3df0925bc5647",
+    "batchId": "6d524457-24bc-4c9b-85ec-403be5198b3e",
+    "warehouseId": "5a3a4a96-47b2-4654-b476-533ad4026a7b",
+    "quantity": "20.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "3e9530ff-eedd-40ed-81b3-ceb17f991072",
+    "materialId": "6f4be7b2-6814-4d46-b233-32ddae784b8b",
+    "sourceId": "af15001a73513caa11dd5d8f911de230",
+    "batchId": "b74b6d9e-5527-4fd5-9831-6bb11c250c31",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "6.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "3f9a8f2c-c424-429c-9f32-287c1b2d2753",
+    "materialId": "e5c7b678-b9e2-4daa-8e3f-b442a0910dc8",
+    "sourceId": "af15001a73513caa11dd5d8f911de22e",
+    "batchId": "c390f427-1359-4c92-83a6-b069e4b9163b",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "18.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "408497cf-dab5-4a97-9b4b-00389b39cdc1",
+    "materialId": "463b94af-6294-4801-8741-6782e71f5bb6",
+    "sourceId": "af15001a73513caa11dd5d90ba2bdf52",
+    "batchId": "aa15c082-9e7e-4865-81fb-b0f59e019c11",
+    "warehouseId": "9e902184-bc1c-49fc-9e5e-957a9559a6f7",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "4121411f-846b-4c0d-b7b2-398f1f5cbb7f",
+    "materialId": "f60fe320-3a11-4f3e-bf38-a2632ec61157",
+    "sourceId": "908a3cd92b02bec811e4e3fb10ce9c7b",
+    "batchId": "0b460f87-555f-47c6-b820-6553e940a728",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "45734f87-bf6c-4aa7-8bb4-01beb5fb6d2d",
+    "materialId": "9bb2fab5-7e95-4ea8-a18e-7a580ca3f734",
+    "sourceId": "a4fba0d3c1060d4b11eee4d2566cef22",
+    "batchId": "a6d50efa-7fe3-43a8-ba39-f7d53b6755e8",
+    "warehouseId": "8cfca628-dfed-499f-b423-8f0ece6aed45",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "4a61c36a-0445-454c-a049-07404ed95ff4",
+    "materialId": "042eab94-832d-4640-975a-f077fea2f344",
+    "sourceId": "af15001a73513caa11dd5d9069d5e31c",
+    "batchId": "64f0cce6-f15f-4209-b978-55901ae57681",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "4e79c4c1-0041-420c-85f2-e729a2d86270",
+    "materialId": "a5c476f6-24e8-4f8f-a5ad-1d59e4d27549",
+    "sourceId": "af15001a73513caa11dd5d8f911de211",
+    "batchId": "19568cb1-517a-471c-b2f2-5e55580a1f46",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "92.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "5008985b-52d2-47ea-9bd9-c15ad36c69a8",
+    "materialId": "ca210e98-bf03-49ba-9ad6-bbfbecfc8e38",
+    "sourceId": "af15001a73513caa11dd5d90ee15534a",
+    "batchId": "6b83fc16-92e1-4c06-a5a6-91539892bfc3",
+    "warehouseId": "d1ed728b-78a0-484a-8bb3-e04f27f4bee2",
+    "quantity": "200.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "50f4e94b-a932-4d48-9c21-bf7d235bba3d",
+    "materialId": "45a80d8d-d982-4389-bf01-6cc269279f8e",
+    "sourceId": "91eda0d3c1060d4b11ec27e72560f35a",
+    "batchId": "a8e2beb1-1a81-4b39-ab87-ab561be13a76",
+    "warehouseId": "18044b48-dffc-4efa-864d-bd3b0e93833a",
+    "quantity": "40.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "50f70030-5849-4852-990c-17f376c9bf91",
+    "materialId": "15be8000-f780-4805-b454-ffbafd778067",
+    "sourceId": "90b6001a4bcf769a11e193734ed9ffb5",
+    "batchId": "8282b970-e4d2-421d-8ad5-f86b945853fe",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1090",
+    "balanceId": "51799893-7706-44c2-b7e9-9537ff124156",
+    "materialId": "86ec5c2a-70dc-46d0-85b0-448ab0a935eb",
+    "sourceId": "b1a83cd92b02bec811e38a51af908195",
+    "batchId": "87ccc22e-1e34-4539-8f34-d1aebf316772",
+    "warehouseId": "b94ab8cc-3910-44f2-9bbd-b163911da302",
+    "quantity": "9.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "523281f7-6fd2-4206-9503-8ea61ffa9c0a",
+    "materialId": "5af3b1be-9854-4bd5-b0a7-ba4655fca461",
+    "sourceId": "b06ca0d3c1060d4b11ead174241ba4c3",
+    "batchId": "1fb5e43c-0c43-48c0-a3fb-834229f6755d",
+    "warehouseId": "87045c60-cbd2-4d37-86f0-ba12582d6581",
+    "quantity": "95.0000000"
+  },
+  {
+    "accountCode": "1061",
+    "balanceId": "5446bfcd-78eb-48f5-8ba3-e0a0ac1f4817",
+    "materialId": "1fe13e42-87a8-4fbb-a9b6-a6e8e199481e",
+    "sourceId": "af15001a73513caa11dd5d914e406d7f",
+    "batchId": "43313d3d-7ba7-4c94-ad89-6d344941837a",
+    "warehouseId": "ee567800-c0ce-4114-80c6-bcb51c509f64",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "546c0c9d-050e-46d5-8e73-a08c0bb34569",
+    "materialId": "85296e56-de6b-448c-9275-41ada3bfa505",
+    "sourceId": "8115001a4bcf769a11dd691bfdeaf6fe",
+    "batchId": "0c123d2d-9b18-400f-90f1-7be662091277",
+    "warehouseId": "741373f2-576a-4703-9fc4-7be7f902f7a4",
+    "quantity": "69.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "58ec56b0-5f93-43a4-9d8f-fd2edddbebd1",
+    "materialId": "463b94af-6294-4801-8741-6782e71f5bb6",
+    "sourceId": "af15001a73513caa11dd5d90ba2bdf52",
+    "batchId": "bbb9634c-bab1-4bf8-8f41-0f92f5eebd49",
+    "warehouseId": "18044b48-dffc-4efa-864d-bd3b0e93833a",
+    "quantity": "30.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "5ac7a1b5-e1a5-4279-a4aa-0c97f70eff18",
+    "materialId": "f103cdc4-cd6c-41bc-bd19-1e417ee54275",
+    "sourceId": "af15001a73513caa11dd5d915bfab7a4",
+    "batchId": "2e87bdf0-d6d6-45e3-b3d6-0cac87d9bd5c",
+    "warehouseId": "565e1a53-aae7-4823-8d62-c2f458b9aeb7",
+    "quantity": "20.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "5d61d8a4-3d22-49de-a4d4-40a74a7481ea",
+    "materialId": "2ab0259c-334b-4f35-8183-dc5b83b379c7",
+    "sourceId": "af15001a73513caa11dd5d8f911de212",
+    "batchId": "8af5c97f-c831-4380-9c9b-53a3d4e07a77",
+    "warehouseId": "2be3e452-2896-463c-b313-a836d8d76951",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "5e194e0c-4521-43fa-b179-4408d93d9a8f",
+    "materialId": "ca210e98-bf03-49ba-9ad6-bbfbecfc8e38",
+    "sourceId": "af15001a73513caa11dd5d90ee15534a",
+    "batchId": "a37513ce-7f9a-474a-9355-a1af7deb55a4",
+    "warehouseId": "8d0c91f8-cf83-446d-96d4-092b6f349548",
+    "quantity": "40.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "61b7d6b3-2665-4ee0-88e3-65be515533a5",
+    "materialId": "a74a8396-5716-41f2-bb53-3c7456caf005",
+    "sourceId": "bb19001a4bcf769a11df2ff4b6d5bb68",
+    "batchId": "15f16c55-3b03-49b5-a64d-46e02cc50b76",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "63206af2-be2c-4ecb-acc9-5b810aa3aebe",
+    "materialId": "f0ea1f0d-fca6-461a-bf4f-51e6d1fb3bd6",
+    "sourceId": "93e7a0d3c1060d4b11eeade4b6d7a619",
+    "batchId": "58a36aaf-3ba4-433a-b06a-972a4960abd1",
+    "warehouseId": "1fee2043-a6f5-425d-9797-0968a9bd60e1",
+    "quantity": "55.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "64c932f9-bfda-41fc-9950-99985cdd7d16",
+    "materialId": "f8b11ed7-762f-44db-bf1c-f89c448b5b67",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41f9",
+    "batchId": "1402cf19-ee79-46ae-b6d3-7fda842abc71",
+    "warehouseId": "a87ab747-693e-4861-9e05-4a356305ab1d",
+    "quantity": "517.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "65952ed8-2d91-42a4-8a82-bbf76087f0bf",
+    "materialId": "538f2b2f-c6d9-4568-882c-378e4c3fa814",
+    "sourceId": "af15001a73513caa11dd5d9069d5e2ba",
+    "batchId": "54f1ffa9-5af0-4df4-a722-df84f70a1244",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "697ec21f-2a92-48a6-9f3e-28c760cf1417",
+    "materialId": "8b4c43ee-4b00-4966-93ee-5757b84da66f",
+    "sourceId": "af15001a73513caa11dd5d9069d5e162",
+    "batchId": "3260e02c-c1d0-41db-bd59-2bc977cc8f3f",
+    "warehouseId": "2be3e452-2896-463c-b313-a836d8d76951",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "6a0c6abe-5db2-4e69-b87d-f4323589dfb1",
+    "materialId": "ca210e98-bf03-49ba-9ad6-bbfbecfc8e38",
+    "sourceId": "af15001a73513caa11dd5d90ee15534a",
+    "batchId": "2cea27b6-d90a-4970-93cf-62420cb17535",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "36.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "6ab4f243-33b3-46c4-b8a2-5872809830be",
+    "materialId": "424e6dd8-42d9-4649-a6f5-cf094ac8eaa7",
+    "sourceId": "b1c1d4f5efa0150011f18b26d1a6c704",
+    "batchId": "33ccca88-0d45-4280-b8cf-e650d776ab27",
+    "warehouseId": "eda55dd1-3978-453b-ab69-54f551e7407b",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "6bc7b6b6-9e8e-4eb0-8820-8a37ea13191d",
+    "materialId": "39d712f2-8ef4-4d37-ba8f-a20af55d02fb",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41d6",
+    "batchId": "fa95e4d3-e320-40e1-a375-bab7ef132dc2",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "5.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "6c8b8e68-9faf-4d61-940b-22d441eec872",
+    "materialId": "4df0636a-96c7-4260-a2c3-9a17683a86d2",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41cf",
+    "batchId": "6d9fe401-8b88-4c8f-bb86-b923298f8fab",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "12.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "6d0244ee-975c-4974-b53e-714d1c1df857",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "cd4cc67c-a6fb-46c7-bb0a-850ac364c257",
+    "warehouseId": "7c34bb3f-b39b-46c9-86f7-5b894169b7d3",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "6eb48bbe-662b-4184-95fb-b7f8406c99df",
+    "materialId": "73e95f1d-7db1-4715-99e8-c32e87f715c4",
+    "sourceId": "af15001a73513caa11dd5d90919f1f93",
+    "batchId": "9c17d399-6f4f-45c9-9eb3-f1b39195c172",
+    "warehouseId": "4450053a-5d12-48e6-8512-2c5392540a7a",
+    "quantity": "24.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "6fb08343-81f2-4965-b83b-82e146a83ba8",
+    "materialId": "8215c744-78e7-4914-9d4e-47395cc04dfe",
+    "sourceId": "af15001a73513caa11dd5d9069d5e1cc",
+    "batchId": "ff267edc-364e-4711-b4cd-3f051814e4a7",
+    "warehouseId": "565e1a53-aae7-4823-8d62-c2f458b9aeb7",
+    "quantity": "42.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "701f86b1-1b41-494d-94a8-01ac08af7e05",
+    "materialId": "558f409d-6d31-4157-aa35-704ca3e5e4b6",
+    "sourceId": "bbca001a4bcf769a11e0f94608765266",
+    "batchId": "3c40e63c-2a2e-4add-970e-e74d5fbc11b9",
+    "warehouseId": "1fd6af21-dec2-4a50-8ef3-8670c0243861",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "72b3201f-0c32-446b-8bde-d0baf06db488",
+    "materialId": "4fbe8efe-f1a1-4b3e-b21d-f26b44172e46",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41da",
+    "batchId": "f4952eda-cb7a-4e8a-8e76-19ad9fb8324c",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "733ae5f1-cd88-4a74-9f06-32f117dec493",
+    "materialId": "281975c5-ab80-4c77-8e9a-90db209cc4a3",
+    "sourceId": "af15001a73513caa11dd5d8f911de222",
+    "batchId": "be54c894-0be6-4e3a-9a61-055641093c9f",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "7.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "74322cda-2a78-40d7-9d05-86cfdec562ee",
+    "materialId": "b5b0fa82-5049-4302-8b4c-a1d38e1f365a",
+    "sourceId": "af15001a73513caa11dd5d9168c1d0b5",
+    "batchId": "243dadeb-be23-421e-9bbe-ca2253efa8dd",
+    "warehouseId": "549bc257-e2d4-43a6-9ffc-6f53d508e689",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "769274c9-f1ef-46d6-9996-94ac09944f8b",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "c4cfc332-5760-4789-9538-f2b721227611",
+    "warehouseId": "d910a685-1fce-48ae-a474-7d49059cee58",
+    "quantity": "5.0000000"
+  },
+  {
+    "accountCode": "1090",
+    "balanceId": "786c00a9-a470-4f66-aaf1-3744a0cc7b28",
+    "materialId": "3891abfc-1837-4b47-9555-d809e7344aa8",
+    "sourceId": "af053cd92b02bec811e47c4bd83710a0",
+    "batchId": "6d9ace20-6cbf-4fe5-9fbc-f8b687b221f9",
+    "warehouseId": "b94ab8cc-3910-44f2-9bbd-b163911da302",
+    "quantity": "4.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "794691b7-fcc2-4183-879a-c70119aaa41c",
+    "materialId": "c7d23bca-a77f-45c7-9964-ca19957bc8d9",
+    "sourceId": "af15001a73513caa11dd5d9048919303",
+    "batchId": "43d75618-df7a-4fa7-96b8-9d1187e37296",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "799a3df1-3f18-4964-8825-792cfce89084",
+    "materialId": "73e95f1d-7db1-4715-99e8-c32e87f715c4",
+    "sourceId": "af15001a73513caa11dd5d90919f1f93",
+    "batchId": "80a36c0e-51bd-485f-9132-9f210992058e",
+    "warehouseId": "a235fb61-7e05-4ed3-9668-0c98a6757aea",
+    "quantity": "4.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "7cc81c09-363c-48ee-bf45-15c217cea796",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "016d80e8-2511-45c3-9488-4e9f624ed71f",
+    "warehouseId": "24edb46c-aa97-43cd-8799-314b648f13f5",
+    "quantity": "47.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "7d3df859-c91d-455f-b0ec-9b6adbc0d712",
+    "materialId": "988c89bc-8655-4ead-afb3-27b7a390c278",
+    "sourceId": "a37da0d3c1060d4b11eaa952353a8f52",
+    "batchId": "043691a1-f838-4678-a9ff-b0a2c12b9ce6",
+    "warehouseId": "cec8f1d1-7df4-4afc-8768-ce13bec0fa23",
+    "quantity": "200.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "7d511bc6-90f8-4d3f-b2d2-2a35597a9cd5",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "c186b21a-7098-498d-8200-a8328cf0e902",
+    "warehouseId": "02a434bb-c3cd-4bba-8914-09e29495ff3e",
+    "quantity": "6.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "7dcee7f5-76e2-4302-b4ad-f00097323e14",
+    "materialId": "aedfd542-075c-4d99-be0a-912c4b2f58fb",
+    "sourceId": "8115001a4bcf769a11dd691bfdeaf700",
+    "batchId": "eb0f9448-b967-41d0-afc9-fad3f41256e1",
+    "warehouseId": "7237b780-80ce-4ccc-9819-4f14739579d7",
+    "quantity": "5.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "83560f9f-8c9a-48ab-bdd1-9f2d1f195902",
+    "materialId": "c3370d00-02c1-40d4-a24a-e005aabbadae",
+    "sourceId": "a4b4001a4bcf769a11e09252f6684af8",
+    "batchId": "61930706-ac5d-4e25-8571-337f079f928c",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "84d07535-2d29-4f4f-ba2e-b10e9084bfb2",
+    "materialId": "7fb1c0ac-63e4-4f8a-ab4d-5c1b955b9bbf",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41fc",
+    "batchId": "52f0cd28-ec84-4045-a5bb-9cec716ae255",
+    "warehouseId": "98ddf3e3-caa3-4038-bb29-dd7ed61115ff",
+    "quantity": "20.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "85ba2c6e-787d-421d-ae28-507bef50abad",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "3590272b-bf28-49bb-8fba-ca336a8d73ee",
+    "warehouseId": "223543ea-a3ce-4fca-bda0-d6b8ae3d6c3c",
+    "quantity": "5.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "8814512b-872b-4a2e-bf13-ce3b1355e8d4",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "490818be-2b13-42c4-9105-e3511e7def10",
+    "warehouseId": "18044b48-dffc-4efa-864d-bd3b0e93833a",
+    "quantity": "21.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "89f6f178-7cd7-42b3-8fe8-86a6c2cd2b0f",
+    "materialId": "a5556bf4-99db-43e5-8553-bb28a1cc31cc",
+    "sourceId": "af15001a73513caa11dd5d9162c72bbc",
+    "batchId": "4e4fab20-29f9-43e6-88b1-a00ae802419e",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "10.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "89f9c9f8-583a-4675-b130-bb31c725524e",
+    "materialId": "0436e8e1-b584-4991-9e69-9f6a3196b5a6",
+    "sourceId": "af15001a73513caa11dd5d90d3ddd6ba",
+    "batchId": "8e65aa8c-8ea6-4167-94e4-163a4ac9b188",
+    "warehouseId": "741373f2-576a-4703-9fc4-7be7f902f7a4",
+    "quantity": "18.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "8a6faef4-09d7-4650-ba74-43ba09ddf488",
+    "materialId": "6d4b3e12-748d-4cba-b694-dbf374325c3f",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41d2",
+    "batchId": "fe2e226a-3097-4f1d-907d-638e87cffd48",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "8ea19598-7afd-4806-85ac-45bb636cab95",
+    "materialId": "19ef4bd0-5449-48c7-b680-f7a653850283",
+    "sourceId": "a37da0d3c1060d4b11eac1ad07673342",
+    "batchId": "03b7bd29-f57a-4693-8d62-5bbd3da28084",
+    "warehouseId": "741373f2-576a-4703-9fc4-7be7f902f7a4",
+    "quantity": "82.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "8f0e17ab-3309-44a3-940a-6fb5a146b004",
+    "materialId": "f0ea1f0d-fca6-461a-bf4f-51e6d1fb3bd6",
+    "sourceId": "93e7a0d3c1060d4b11eeade4b6d7a619",
+    "batchId": "e547d3d2-c31d-4650-81d3-637c6bcd8393",
+    "warehouseId": "9cd09ec9-f210-478b-80ac-53dc833d0b34",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "92617fab-f8cf-4fc5-8d5b-0402d5763a5b",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "cc601348-ce9e-4c9a-8346-431ea0f2ba78",
+    "warehouseId": "4450053a-5d12-48e6-8512-2c5392540a7a",
+    "quantity": "16.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "94f84887-cf18-4678-bf11-49807155e53b",
+    "materialId": "97a6f705-5bc1-4ce9-97e4-d922d306e918",
+    "sourceId": "af15001a73513caa11dd5d91278236f3",
+    "batchId": "cd0bd255-8fc3-4af0-8300-7496e50f26ca",
+    "warehouseId": "741373f2-576a-4703-9fc4-7be7f902f7a4",
+    "quantity": "4.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "961bd68b-ad42-44b6-a9db-4359ce60c525",
+    "materialId": "d60f1f67-1cbe-4160-9e23-16f6ad14c5fb",
+    "sourceId": "b2e9001a4bcf769a11df8ef724616168",
+    "batchId": "2b8bc1ee-1d75-43c8-9028-89abf8682cd8",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "966315f1-f47b-4293-bf8f-05cb83c8be34",
+    "materialId": "b5b0fa82-5049-4302-8b4c-a1d38e1f365a",
+    "sourceId": "af15001a73513caa11dd5d9168c1d0b5",
+    "batchId": "5c72e1ca-92f0-4c36-832c-70b9a1c484ee",
+    "warehouseId": "a47f9cda-074d-4bab-969c-c040a7abe561",
+    "quantity": "139.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "9763d3ef-408a-4223-ae78-3eba96c67dc4",
+    "materialId": "fbf71056-7ad7-4236-82c8-4ecc8319c072",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41d3",
+    "batchId": "38764591-fbf6-43de-9db3-f4a85d1566f2",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "9ade57d7-63a3-4c8f-a12a-28f8f6a35030",
+    "materialId": "7c802b06-915c-44b6-9bf8-3a5bf714dfa4",
+    "sourceId": "80ed001a4bcf769a11e07bac1273aeb5",
+    "batchId": "8483eb86-1538-4a7f-9a6b-63d5addbc73b",
+    "warehouseId": "9cd09ec9-f210-478b-80ac-53dc833d0b34",
+    "quantity": "216.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "9b7c4131-559e-4582-90de-f951637e976e",
+    "materialId": "fd9bb6cf-bb41-43d2-9349-02c7de3b275f",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41d1",
+    "batchId": "f34aba72-5b15-4559-896f-213565d6184a",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "9.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "9c79a1df-2be7-4316-8873-046307d7c683",
+    "materialId": "64f2ad91-7823-430d-bd5b-dd44d58c5749",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41d9",
+    "batchId": "408515e5-48a4-4348-b0cb-c660799eb138",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "a0226533-87a3-4dac-88d0-80bea75640c5",
+    "materialId": "24ecc397-c06c-4731-aa92-0ce45e0649df",
+    "sourceId": "af15001a73513caa11dd5d8f911de21c",
+    "batchId": "02021bac-8080-4046-acb6-e89cdf5400cb",
+    "warehouseId": "f41557b3-dda7-4380-8fcb-c84598fc6389",
+    "quantity": "17.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "a52ff797-e485-401a-a67f-a852050cf3a1",
+    "materialId": "c9209598-9355-4d04-9818-596ae964809b",
+    "sourceId": "bde7001a4bcf769a11df40784f38c433",
+    "batchId": "b7be83ec-0f97-40ce-bb0a-ae5c8f9ddeab",
+    "warehouseId": "90d2b9aa-96a1-4b1e-b92e-56cfeac30413",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "a540a148-7ac3-4be2-a82f-0069a71216c4",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "5314314e-c8b4-4792-9bfc-392b0262264c",
+    "warehouseId": "94353245-542c-450b-bbca-d671612b0fdf",
+    "quantity": "40.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "a547c8d5-8c11-4a46-bdbb-2eb4b4b67bc9",
+    "materialId": "0ca23c7a-1a09-496a-b5b5-fcb197925078",
+    "sourceId": "a392001a4bcf769a11e2379212799050",
+    "batchId": "13c00c5c-092e-4816-a073-06c8df8054ed",
+    "warehouseId": "4450053a-5d12-48e6-8512-2c5392540a7a",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "a7d06aa0-23b3-4d49-b327-98cc7ed0d675",
+    "materialId": "6e035803-55be-4391-b350-ec57542a448d",
+    "sourceId": "a37da0d3c1060d4b11eaaacabd164ae5",
+    "batchId": "c850c082-c832-4584-95a7-3ed9c193b05f",
+    "warehouseId": "123c1dab-8363-4d16-ae6c-86be2e7ef0a3",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "aa5c513e-4e3c-4b29-a8b8-b3dfa1aa8647",
+    "materialId": "08c8ab11-cae2-45d2-9b0f-c024a2b3a26c",
+    "sourceId": "8d16a0d3c1060d4b11e587893b052b97",
+    "batchId": "1c209d0d-7e03-45c9-aad5-076a65168a0d",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "ab1f8f13-7b81-4659-96b8-61e58c8acd54",
+    "materialId": "a5ae3458-d693-4d2e-a012-11e1d16c0ad1",
+    "sourceId": "af15001a73513caa11dd5d919980a491",
+    "batchId": "180ad535-8643-4245-abcc-f3aacf857fb3",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "ac002e23-097b-4404-ab28-7bc6ef78a2f6",
+    "materialId": "47869fad-804b-4de4-a019-e54abaa8aeef",
+    "sourceId": "afbd001a4bcf769a11de72b0dd002644",
+    "batchId": "bd322d56-cf2e-4235-b7f4-19935c2dd5c2",
+    "warehouseId": "87045c60-cbd2-4d37-86f0-ba12582d6581",
+    "quantity": "150.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "ae331245-ab61-42b4-a0ba-f618a66f5534",
+    "materialId": "94dccb1e-d649-4e1f-9ac2-a4a990efead8",
+    "sourceId": "bf57001a4bcf769a11e034040df568e9",
+    "batchId": "fd75a31b-08cd-413b-911d-434c9af559b3",
+    "warehouseId": "4e426b9a-8b43-49ee-aba2-ef1944890c1d",
+    "quantity": "4.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "ae7bd353-10da-4c3d-8228-38bda2097012",
+    "materialId": "bfebaa08-9370-4ec8-ada7-07f5d5000bb3",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41f3",
+    "batchId": "89c81285-e7c3-4ee1-bdbd-0fcc3c5641d4",
+    "warehouseId": "741373f2-576a-4703-9fc4-7be7f902f7a4",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "b0791618-ac88-40cd-98b6-39d24ced1736",
+    "materialId": "a02ba181-e3e5-4818-bac2-d77db707cad4",
+    "sourceId": "af15001a73513caa11dd5d8f911de229",
+    "batchId": "3a371b61-d994-4a94-bb07-d4c96dc47e9d",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "24.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "b0ef1865-5e2d-413b-acd5-3d39e210dfed",
+    "materialId": "028f196b-474e-4cfa-a0ae-2cac5c12c736",
+    "sourceId": "af15001a73513caa11dd5d9141401967",
+    "batchId": "141fa553-3d9a-4971-abfc-653b80c41573",
+    "warehouseId": "d0e218a0-3187-4083-9103-cafa60b88675",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "b26bd47d-ed61-4544-bf79-a6c7d4e2efaa",
+    "materialId": "8d50ab01-f5f9-4044-b0e5-0c9c98b42779",
+    "sourceId": "a392001a4bcf769a11e237921279904d",
+    "batchId": "df2e30b8-aff2-483c-afb6-9794b4a0e6c1",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "b3188d2d-b2fc-4ffd-990e-6f0ebc8d6d68",
+    "materialId": "ee049d94-da5e-453a-a3a7-c415b3ff6103",
+    "sourceId": "ae20001a4bcf769a11e1b6aa63e0ec62",
+    "batchId": "b69556f1-7c48-47bd-9fe0-2493522fb743",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "4.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "b3cd00f3-2c7f-4358-9a65-b9994986a620",
+    "materialId": "8d952a47-403f-49b6-ad1f-8385de5a3c5d",
+    "sourceId": "9ca9e4115be3d68911e2a57fb57dc125",
+    "batchId": "56126181-52d9-424c-8b9b-87ffbab8e509",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "b473b78a-030e-446a-b0ea-01764918aa90",
+    "materialId": "33ce3615-f528-485c-9ed1-da1da1a86603",
+    "sourceId": "af15001a73513caa11dd5d905c468212",
+    "batchId": "61e0fb82-f0ab-4511-b686-41b5554f91c9",
+    "warehouseId": "4b5c0682-7991-4058-bee9-0b46de741042",
+    "quantity": "14.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "b4882a06-61bc-4a0b-8df5-60aa11d1dfd3",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "c465d981-3140-4d65-8bcc-75b423bdf838",
+    "warehouseId": "f3354988-12da-4ce4-9294-6d0e6d86ad9b",
+    "quantity": "4.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "b683e0c5-22da-404f-8517-247fa44a4bcf",
+    "materialId": "47869fad-804b-4de4-a019-e54abaa8aeef",
+    "sourceId": "afbd001a4bcf769a11de72b0dd002644",
+    "batchId": "f9216df3-b248-4396-8916-cac32e984fa6",
+    "warehouseId": "a235fb61-7e05-4ed3-9668-0c98a6757aea",
+    "quantity": "800.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "b9221dcb-f608-4c7b-95d0-b9d45674fd52",
+    "materialId": "3d1fb37d-7c60-461b-bd0b-17997666fe44",
+    "sourceId": "af15001a73513caa11dd5d8f911de231",
+    "batchId": "86738d14-7f05-43af-af72-e2272dfb077c",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "15.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "bd210988-554b-4595-af20-221ee6b14c41",
+    "materialId": "9bb2fab5-7e95-4ea8-a18e-7a580ca3f734",
+    "sourceId": "a4fba0d3c1060d4b11eee4d2566cef22",
+    "batchId": "4a5c92b0-7f81-4ac2-91ad-1197ce090cf2",
+    "warehouseId": "f3354988-12da-4ce4-9294-6d0e6d86ad9b",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "bd309136-9a2a-4f90-b5b2-c3ebc8eeace4",
+    "materialId": "5d57de88-8dc8-4edf-9647-84542a50fea9",
+    "sourceId": "af15001a73513caa11dd5d903b049526",
+    "batchId": "6bc8a40e-0d4d-45d8-8c04-b47219ac505d",
+    "warehouseId": "7237b780-80ce-4ccc-9819-4f14739579d7",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "c085a369-e335-413f-ba6b-e673f9f5bd30",
+    "materialId": "4ddf78b7-f982-446f-8ca4-3e86891ed2e2",
+    "sourceId": "a25c001a4bcf769a11e0a0813be6e0b8",
+    "batchId": "9e2b7a57-0efe-48ab-9cf2-995fe59512b4",
+    "warehouseId": "4fe1293c-60d6-4be4-94a1-7ad62f109de9",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "c3e5d2c0-17ab-4923-abb9-b1db617d110e",
+    "materialId": "b68cc487-57d5-4d07-ba8f-1d0db528dba3",
+    "sourceId": "af15001a73513caa11dd5d918d3f0dc9",
+    "batchId": "498b1541-a950-4fb6-841f-0cb4f5000df6",
+    "warehouseId": "4e426b9a-8b43-49ee-aba2-ef1944890c1d",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "c5aa469b-9f68-4ae9-a234-1721d1c39b11",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "41609ad5-92af-4b1a-a5d3-10e0a94d3eaf",
+    "warehouseId": "d8c0d0da-741c-4d71-82c1-51481c822acd",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "c64f8233-5d10-46d1-9a84-b3c1eac05084",
+    "materialId": "26ee1e8c-0027-4a92-93c1-747433521900",
+    "sourceId": "af15001a73513caa11dd5d9134612846",
+    "batchId": "2096ee1f-806b-434a-9c6e-ae7bafc62fa7",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "4.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "c7689fd9-f71a-4429-9f07-dac07ede8e5c",
+    "materialId": "df7aef99-20e9-4d92-b21e-de94755b8f6b",
+    "sourceId": "af15001a73513caa11dd5d90d3ddd74c",
+    "batchId": "496a2285-6f6a-47aa-9263-fe0887d363b2",
+    "warehouseId": "a235fb61-7e05-4ed3-9668-0c98a6757aea",
+    "quantity": "50.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "c803618c-1a9e-4572-94fe-3309886699d3",
+    "materialId": "3d376eca-0893-4797-ac06-6b9c94a211e8",
+    "sourceId": "af15001a73513caa11dd5d8fabfc41d0",
+    "batchId": "2583f6f7-a145-4fdb-82d4-5a9e942be59f",
+    "warehouseId": "fb858958-7c16-4e57-96f6-74d035190061",
+    "quantity": "5.0000000"
+  },
+  {
+    "accountCode": "1090",
+    "balanceId": "cb1c917f-c8b4-4e5e-a686-227f53f59e20",
+    "materialId": "3610e6b3-7ab0-480c-86fd-f5f2ac1bd00e",
+    "sourceId": "b78e3cd92b02bec811e459ded7cf881c",
+    "batchId": "fbfa307b-0002-4b82-911e-2acdf82832c2",
+    "warehouseId": "b94ab8cc-3910-44f2-9bbd-b163911da302",
+    "quantity": "10.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "ce782646-07f0-4768-b5f4-fc207be06846",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "76673323-25df-4de4-8aa3-df1b05939fa0",
+    "warehouseId": "a47f9cda-074d-4bab-969c-c040a7abe561",
+    "quantity": "9.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "cea2ed4d-554e-4cb3-b3b2-9d72542e32cf",
+    "materialId": "a47cf582-8570-4d48-8e74-cfa47e2abcb0",
+    "sourceId": "af15001a73513caa11dd5d90aca6080c",
+    "batchId": "f5d12560-71ed-458f-9745-77d32c7892a9",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "cee3ad08-b141-4545-8505-9090c2636fe0",
+    "materialId": "a5b909f3-5c56-4932-a2d8-31457f589581",
+    "sourceId": "b56fa0d3c1060d4b11e6311114a688bc",
+    "batchId": "8c662f32-29d2-4fb0-afd6-2578e62a6e12",
+    "warehouseId": "cd7a03fb-3e38-4396-9a99-8501c0a1b9fd",
+    "quantity": "37.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "cf1c84e3-957a-4da2-b85b-19133c7c52fc",
+    "materialId": "ae68dc00-16cc-457b-8520-e87f78a03ee1",
+    "sourceId": "ae20001a4bcf769a11e1b6aa63e0ec64",
+    "batchId": "51b28b0e-c040-4602-ba13-b3a784db0c3b",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "8.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "cf3b8b3b-f352-44a0-923e-a80360a836f1",
+    "materialId": "3a39dd86-49ae-44d2-a289-429ecad584b1",
+    "sourceId": "af15001a73513caa11dd5d8f911de220",
+    "batchId": "9ddd482d-9bf7-4c55-acef-622367534c59",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "19.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "d0041f43-90b4-4610-98b6-4eb46c89b0b8",
+    "materialId": "49d1ccc7-1405-4928-a2fd-2e3c7ce414a8",
+    "sourceId": "af15001a73513caa11dd5d8f911de232",
+    "batchId": "ea4656ec-f026-446c-af92-3c362e8cc1a9",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "d0d170eb-fccf-4da0-9e73-0235996ffa99",
+    "materialId": "8fbe5a54-a088-4d41-8140-752f3d1278b6",
+    "sourceId": "a48c001a4bcf769a11e24023e0add0b5",
+    "batchId": "d9c5d0be-b5ac-49f7-949b-cdad4e2fae7a",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "d3dbe0c0-3cb4-428d-a0aa-324cccdcb14a",
+    "materialId": "b0eff8bd-4fc9-4f88-b9e5-1472290c5c06",
+    "sourceId": "bffc001a4bcf769a11e10138aa53ec10",
+    "batchId": "98196cae-e07e-4e76-9d9c-870148f3f39f",
+    "warehouseId": "1a13b0df-3f56-422b-b110-42edf311df53",
+    "quantity": "4014.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "d62df968-1da0-41d6-b40c-f2e87886a2af",
+    "materialId": "dd48bae5-c627-4d04-b4d0-c9e0d77bb62a",
+    "sourceId": "98f5001a4bcf769a11df3ba81adf97fb",
+    "batchId": "062c2285-8bba-4bde-aff7-45b5e62505c6",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "d6bf18d0-1b5b-42d8-afaa-addfd806d085",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "acd60ac3-918d-4950-bb60-dd1088baa02f",
+    "warehouseId": "4450053a-5d12-48e6-8512-2c5392540a7a",
+    "quantity": "198.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "d84795a6-1c0f-42ec-860e-3d7926a8b3c6",
+    "materialId": "aedfd542-075c-4d99-be0a-912c4b2f58fb",
+    "sourceId": "8115001a4bcf769a11dd691bfdeaf700",
+    "batchId": "a3d379e6-4827-46b7-a537-3bf5dfda8f85",
+    "warehouseId": "63c2220e-903b-4d49-8c54-c170ea59ffd6",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "d969dbf0-54ab-4819-9717-e980d9f0c370",
+    "materialId": "ca210e98-bf03-49ba-9ad6-bbfbecfc8e38",
+    "sourceId": "af15001a73513caa11dd5d90ee15534a",
+    "batchId": "e8633409-fae1-46c1-96c4-cc5811535533",
+    "warehouseId": "98ddf3e3-caa3-4038-bb29-dd7ed61115ff",
+    "quantity": "72.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "da698fe7-ebb1-4cd9-bf81-ac952f258f17",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "4e461620-ac0a-4bad-902d-1a7887e3e435",
+    "warehouseId": "282c837b-a2e7-4245-84a2-23f4836da813",
+    "quantity": "64.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "dbe3428a-ac1d-4263-a652-6d7491029206",
+    "materialId": "8d50ab01-f5f9-4044-b0e5-0c9c98b42779",
+    "sourceId": "a392001a4bcf769a11e237921279904d",
+    "batchId": "0b79fc43-71d4-409a-aa84-dcfb09d50831",
+    "warehouseId": "cd7a03fb-3e38-4396-9a99-8501c0a1b9fd",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "dd027222-d087-4194-96d8-e127e91e4cf2",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "8f3f7572-3309-492a-8367-d66131233a7b",
+    "warehouseId": "94353245-542c-450b-bbca-d671612b0fdf",
+    "quantity": "60.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "de868920-6b1c-4e03-98a7-4cb73c0cbf70",
+    "materialId": "50a7f504-50ca-4d37-9875-ea35d2ca2724",
+    "sourceId": "9ca9e4115be3d68911e2a57fb57dc123",
+    "batchId": "e19b0f7c-55f0-4882-8bb8-cd9c12f2945d",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1015",
+    "balanceId": "df7af750-10b5-486c-89fb-ea28ea03a4ae",
+    "materialId": "61d5a5fe-fba9-4216-aad3-27ed96c9cf9f",
+    "sourceId": "af15001a73513caa11dd5d91ac4bef55",
+    "batchId": "27ca4b79-183d-4740-ad30-40189400b9ff",
+    "warehouseId": "ee567800-c0ce-4114-80c6-bcb51c509f64",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "e0c2586d-9d7a-4ad7-8ad0-2bf542c9d40e",
+    "materialId": "b5b0fa82-5049-4302-8b4c-a1d38e1f365a",
+    "sourceId": "af15001a73513caa11dd5d9168c1d0b5",
+    "batchId": "2ea8eb5b-e941-42ac-abbd-241dca76b56c",
+    "warehouseId": "4b5c0682-7991-4058-bee9-0b46de741042",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "e3201e33-9964-4656-828b-05a52daa6496",
+    "materialId": "d0bfaa5b-ce01-446f-8525-942caecd4cb6",
+    "sourceId": "af15001a73513caa11dd5d8f911de227",
+    "batchId": "9cf7d205-983d-4f66-b5bc-f7f708d09d10",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "e32677d3-d936-42ea-95f3-99ddd4eab125",
+    "materialId": "463b94af-6294-4801-8741-6782e71f5bb6",
+    "sourceId": "af15001a73513caa11dd5d90ba2bdf52",
+    "batchId": "0f749aef-e8aa-414f-b8e5-245646b2600e",
+    "warehouseId": "4450053a-5d12-48e6-8512-2c5392540a7a",
+    "quantity": "19.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "e3523dfb-f5b3-4593-b23c-818fdd8eef93",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "6959a32a-2751-4946-981c-cf99c636086a",
+    "warehouseId": "cb28abe2-b672-4608-bf47-ffcfc0995f22",
+    "quantity": "234.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "e39d609e-e582-4378-b28e-92d0e1f7c90b",
+    "materialId": "151e0b10-f809-4807-b75f-10c9914d6ae5",
+    "sourceId": "9ca9e4115be3d68911e2a57fb57dc122",
+    "batchId": "3a9861b4-e2d0-4e19-be15-19d00f7e3fcb",
+    "warehouseId": "d7c18f1d-81bf-4555-b5cc-c95c68ff1d88",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "e7ae8aa5-3dd6-423f-88b8-70ce44f93deb",
+    "materialId": "042eab94-832d-4640-975a-f077fea2f344",
+    "sourceId": "af15001a73513caa11dd5d9069d5e31c",
+    "batchId": "25295fbd-485e-4c48-9b65-c3d825426c60",
+    "warehouseId": "d0e218a0-3187-4083-9103-cafa60b88675",
+    "quantity": "1.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "e9b20d9a-9184-4a35-8f15-f1c276669213",
+    "materialId": "ca473e0e-6fba-4fa5-ac3e-c48acd735ee4",
+    "sourceId": "b1abd4f5efa0150011ef89db08736e1f",
+    "batchId": "a535e2ba-9672-44c8-9a03-d768c5d7e81c",
+    "warehouseId": "cec8f1d1-7df4-4afc-8768-ce13bec0fa23",
+    "quantity": "80.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "ea3c8049-fd30-486d-ad1e-8bd36915effb",
+    "materialId": "ab5f25f8-d49c-49cf-99e0-fabcd494a73c",
+    "sourceId": "ae20001a4bcf769a11e1b6aa63e0ec63",
+    "batchId": "ab5f5e7f-2c32-4f82-9b88-0d3e402d03bc",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "5.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "ec1dcccb-f1ff-43e9-9ee1-06a9b5242922",
+    "materialId": "6e035803-55be-4391-b350-ec57542a448d",
+    "sourceId": "a37da0d3c1060d4b11eaaacabd164ae5",
+    "batchId": "bb49250a-0a87-46e2-bb75-2116e38e9363",
+    "warehouseId": "6970e18f-ae3a-441c-bbc5-e9a072b719ab",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "f2b53e9f-2802-43d4-a3ec-a0ffc0021eb6",
+    "materialId": "5268e0ac-1a2f-4b32-a5e5-9da8e77f6d94",
+    "sourceId": "af15001a73513caa11dd5d90b368f451",
+    "batchId": "9d165e4b-8ad5-4a05-af85-46db3c51a524",
+    "warehouseId": "9e902184-bc1c-49fc-9e5e-957a9559a6f7",
+    "quantity": "3.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "f3868274-75dd-4b7d-a680-630568a48ae7",
+    "materialId": "9ed7f525-a508-4ccb-836b-2f2d582f885a",
+    "sourceId": "af15001a73513caa11dd5d8f911de20f",
+    "batchId": "e8728cab-6bb2-4ac9-99fa-1bb59dccd31b",
+    "warehouseId": "2a470858-22ef-4fea-b3eb-995b6eee83ad",
+    "quantity": "2.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "f5d26f0e-b148-4565-a71f-cf121dfa94c9",
+    "materialId": "67f4fcc2-b0f0-4e6c-8e9c-d230ddfd5aac",
+    "sourceId": "b9e6001a4bcf769a11de39233243bcaf",
+    "batchId": "bfda77fc-5cac-417f-b199-72740a8997db",
+    "warehouseId": "741373f2-576a-4703-9fc4-7be7f902f7a4",
+    "quantity": "672.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "f631cc94-e8ec-4ae5-8814-f992ce3c14a8",
+    "materialId": "ca473e0e-6fba-4fa5-ac3e-c48acd735ee4",
+    "sourceId": "b1abd4f5efa0150011ef89db08736e1f",
+    "batchId": "a67c59d7-e2d9-473c-9ea5-a96fc4071ed7",
+    "warehouseId": "8d0c91f8-cf83-446d-96d4-092b6f349548",
+    "quantity": "160.0000000"
+  },
+  {
+    "accountCode": "1061",
+    "balanceId": "faee8674-7531-4b4e-a10b-76cfa22e0a90",
+    "materialId": "d33d2b16-7698-4057-984a-1efd51356e72",
+    "sourceId": "af15001a73513caa11dd5d90631093cc",
+    "batchId": "4f36ed6e-b3f2-432c-9507-4e0c632ae22f",
+    "warehouseId": "ee567800-c0ce-4114-80c6-bcb51c509f64",
+    "quantity": "9.0000000"
+  },
+  {
+    "accountCode": "1060",
+    "balanceId": "fed4478e-a486-4207-9fd5-dcd66d817f3e",
+    "materialId": "891009e5-b0d7-4bbf-9856-111d235299ed",
+    "sourceId": "b1c0d4f5efa0150011f17aa5f8123aa4",
+    "batchId": "9908fad7-1c84-45bf-a9b2-735e0dcc9a47",
+    "warehouseId": "eda55dd1-3978-453b-ab69-54f551e7407b",
+    "quantity": "1.0000000"
+  }
+]
